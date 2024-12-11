@@ -22,14 +22,44 @@
         <p>IV. "O Angular fornece interceptadores HTTP que podem ser configurados para incluir automaticamente tokens
             JWT em requisições para o backend."</p>
 
-        <label><input type="radio" name="q1" value="incorreta"> a) I e II apenas</label><br>
-        <label><input type="radio" name="q1" value="incorreta"> b) I e III apenas</label><br>
-        <label><input type="radio" name="q1" value="incorreta"> c) II e IV apenas</label><br>
-        <label><input type="radio" name="q1" value="incorreta"> d) III e IV apenas</label><br>
-        <label><input type="radio" name="q1" value="correta"> e) I e IV apenas</label><br>
+        <label><input type="radio" name="q36" value="incorreta"> a) I e II apenas</label><br>
+        <label><input type="radio" name="q36" value="incorreta"> b) I e III apenas</label><br>
+        <label><input type="radio" name="q36" value="incorreta"> c) II e IV apenas</label><br>
+        <label><input type="radio" name="q36" value="incorreta"> d) III e IV apenas</label><br>
+        <label><input type="radio" name="q36" value="correta"> e) I e IV apenas</label><br>
 
-        <button onclick="checkAnswer('q1', 'correta')">Resposta</button>
-        <p class="response" id="response-q1"></p>
+        <button onclick="checkAnswer('q36', 'correta')">Resposta</button>
+        <p class="response" id="response-q36"></p>
+    </div>
+
+    <div class="question">
+        <p>Dentro da estrutura do Spring Security, é necessário definirmos as rotas que serão públicas e as que
+            serão privadas – acessíveis apenas com o envio do token JWT. Em que lugar fazemos a configuração dessas
+            rotas?</p>
+        <label><input type="radio" name="q37" value="incorreta"> No arquivo "application.properties"</label><br>
+        <label><input type="radio" name="q37" value="incorreta"> Como dependência no pom.xml</label><br>
+        <label><input type="radio" name="q37" value="incorreta"> Em cada endpoint, nos seus respectivos Controllers,
+            através de anotações específicas</label><br>
+        <label><input type="radio" name="q37" value="correta"> Na Classe de Configuração, através do método
+            "configure"</label><br>
+        <label><input type="radio" name="q37" value="incorreta"> No banco de dados acessado pela API</label><br>
+
+        <button onclick="checkAnswer('q37', 'correta')">Resposta</button>
+        <p class="response" id="response-q37"></p>
+    </div>
+
+    <div class="question">
+        <p>Na estrutura empregada pelo Spring Security, há uma Classe onde implementamos, através de sobrescrita ou
+            não, alguns métodos necessários para a realização do controle de acesso e autenticação em nossa API. Dentre
+            esses métodos, há o método passwordEncoder. Qual a finalidade desse método?</p>
+        <label><input type="radio" name="q38" value="incorreta"> Gerar a string que forma o JWT</label><br>
+        <label><input type="radio" name="q38" value="incorreta"> Autenticar as credenciais dos usuários</label><br>
+        <label><input type="radio" name="q38" value="incorreta"> Informar ao Spring que nossa API deve realizar o
+            controle de acesso e autenticação</label><br>
+        <label><input type="radio" name="q38" value="correta"> Criptografar a senha utilizada pelos usuários</label><br>
+
+        <button onclick="checkAnswer('q38', 'correta')">Resposta</button>
+        <p class="response" id="response-q38"></p>
     </div>
 
     <div class="question">
@@ -164,8 +194,8 @@
     <div class="question">
         <p>15. Qual é a ordem correta de execução quando uma requisição chega ao backend?</p>
         <label><input type="radio" name="q15" value="incorreta"> Controller -> Filter -> Security</label><br>
-        <label><input type="radio" name="q15" value="correta"> Filter -> Security -> Controller</label><br>
         <label><input type="radio" name="q15" value="incorreta"> Security -> Controller -> Filter</label><br>
+        <label><input type="radio" name="q15" value="correta"> Filter -> Security -> Controller</label><br>
         <button onclick="checkAnswer('q15', 'correta')">Resposta</button>
         <p class="response" id="response-q15"></p>
     </div>
@@ -181,8 +211,8 @@
 
     <div class="question">
         <p>17. O que deve estar contido no payload do JWT durante a autenticação?</p>
-        <label><input type="radio" name="q17" value="incorreta"> Senha do usuário</label><br>
         <label><input type="radio" name="q17" value="correta"> Subject (geralmente username) e claims</label><br>
+        <label><input type="radio" name="q17" value="incorreta"> Senha do usuário</label><br>
         <label><input type="radio" name="q17" value="incorreta"> Chave secreta da aplicação</label><br>
         <button onclick="checkAnswer('q17', 'correta')">Resposta</button>
         <p class="response" id="response-q17"></p>
@@ -201,9 +231,9 @@
     <div class="question">
         <p>19. Qual é o papel do PasswordEncoder no processo de autenticação?</p>
         <label><input type="radio" name="q19" value="incorreta"> Gerar tokens JWT</label><br>
+        <label><input type="radio" name="q19" value="incorreta"> Validar o username</label><br>
         <label><input type="radio" name="q19" value="correta"> Verificar se a senha fornecida corresponde ao hash
             armazenado</label><br>
-        <label><input type="radio" name="q19" value="incorreta"> Validar o username</label><br>
         <button onclick="checkAnswer('q19', 'correta')">Resposta</button>
         <p class="response" id="response-q19"></p>
     </div>
@@ -219,9 +249,9 @@
 
     <div class="question">
         <p>21. Como são definidas as permissões de acesso no Spring Security?</p>
-        <label><input type="radio" name="q21" value="incorreta"> Apenas no banco de dados</label><br>
         <label><input type="radio" name="q21" value="correta"> Através de roles e authorities no
             SecurityConfig</label><br>
+        <label><input type="radio" name="q21" value="incorreta"> Apenas no banco de dados</label><br>
         <label><input type="radio" name="q21" value="incorreta"> No arquivo application.properties</label><br>
         <button onclick="checkAnswer('q21', 'correta')">Resposta</button>
         <p class="response" id="response-q21"></p>
@@ -229,17 +259,17 @@
 
     <div class="question">
         <p>22. Qual anotação é usada para restringir acesso a métodos baseado em roles?</p>
+        <label><input type="radio" name="q22" value="incorreta"> @Authorized</label><br>
         <label><input type="radio" name="q22" value="incorreta"> @Secured</label><br>
         <label><input type="radio" name="q22" value="correta"> @PreAuthorize</label><br>
-        <label><input type="radio" name="q22" value="incorreta"> @Authorized</label><br>
         <button onclick="checkAnswer('q22', 'correta')">Resposta</button>
         <p class="response" id="response-q22"></p>
     </div>
 
     <div class="question">
         <p>23. Como as roles do usuário são extraídas do token JWT?</p>
-        <label><input type="radio" name="q23" value="incorreta"> Do banco de dados a cada requisição</label><br>
         <label><input type="radio" name="q23" value="correta"> Das claims do token JWT</label><br>
+        <label><input type="radio" name="q23" value="incorreta"> Do banco de dados a cada requisição</label><br>
         <label><input type="radio" name="q23" value="incorreta"> Do cabeçalho da requisição</label><br>
         <button onclick="checkAnswer('q23', 'correta')">Resposta</button>
         <p class="response" id="response-q23"></p>
