@@ -12,15 +12,11 @@
 
 <body>
     <div class="question">
-        <p>Analise as afirmações abaixo e selecione a alternativa correta:</p>
-        <p>I. "O JWT é frequentemente utilizado para transmitir informações de autenticação entre o frontend Angular e o
-            backend."</p>
-        <p>II. "No Angular, o pacote 'angular-jwt' é uma biblioteca comumente utilizada para facilitar a manipulação e
-            verificação de tokens JWT."</p>
-        <p>III. "Após obter um token JWT no Angular, é seguro armazená-lo no armazenamento local (localStorage) para uso
-            posterior."</p>
-        <p>IV. "O Angular fornece interceptadores HTTP que podem ser configurados para incluir automaticamente tokens
-            JWT em requisições para o backend."</p>
+        <p>1. Analise as afirmações abaixo e selecione a alternativa correta:</p>
+        <p>I. "O JWT é frequentemente utilizado para transmitir informações de autenticação entre o frontend Angular e o backend."</p>
+        <p>II. "No Angular, o pacote 'angular-jwt' é uma biblioteca comumente utilizada para facilitar a manipulação e verificação de tokens JWT."</p>
+        <p>III. "Após obter um token JWT no Angular, é seguro armazená-lo no armazenamento local (localStorage) para uso posterior."</p>
+        <p>IV. "O Angular fornece interceptadores HTTP que podem ser configurados para incluir automaticamente tokens JWT em requisições para o backend."</p>
 
         <label><input type="radio" name="q36" value="incorreta"> a) I e II apenas</label><br>
         <label><input type="radio" name="q36" value="incorreta"> b) I e III apenas</label><br>
@@ -33,15 +29,11 @@
     </div>
 
     <div class="question">
-        <p>Dentro da estrutura do Spring Security, é necessário definirmos as rotas que serão públicas e as que
-            serão privadas – acessíveis apenas com o envio do token JWT. Em que lugar fazemos a configuração dessas
-            rotas?</p>
+        <p>2. Dentro da estrutura do Spring Security, é necessário definirmos as rotas que serão públicas e as que serão privadas – acessíveis apenas com o envio do token JWT. Em que lugar fazemos a configuração dessas rotas?</p>
         <label><input type="radio" name="q37" value="incorreta"> No arquivo "application.properties"</label><br>
         <label><input type="radio" name="q37" value="incorreta"> Como dependência no pom.xml</label><br>
-        <label><input type="radio" name="q37" value="incorreta"> Em cada endpoint, nos seus respectivos Controllers,
-            através de anotações específicas</label><br>
-        <label><input type="radio" name="q37" value="correta"> Na Classe de Configuração, através do método
-            "configure"</label><br>
+        <label><input type="radio" name="q37" value="incorreta"> Em cada endpoint, nos seus respectivos Controllers, através de anotações específicas</label><br>
+        <label><input type="radio" name="q37" value="correta"> Na Classe de Configuração, através do método "configure"</label><br>
         <label><input type="radio" name="q37" value="incorreta"> No banco de dados acessado pela API</label><br>
 
         <button onclick="checkAnswer('q37', 'correta')">Resposta</button>
@@ -49,13 +41,10 @@
     </div>
 
     <div class="question">
-        <p>Na estrutura empregada pelo Spring Security, há uma Classe onde implementamos, através de sobrescrita ou
-            não, alguns métodos necessários para a realização do controle de acesso e autenticação em nossa API. Dentre
-            esses métodos, há o método passwordEncoder. Qual a finalidade desse método?</p>
+        <p>3. Na estrutura empregada pelo Spring Security, há uma Classe onde implementamos, através de sobrescrita ou não, alguns métodos necessários para a realização do controle de acesso e autenticação em nossa API. Dentre esses métodos, há o método passwordEncoder. Qual a finalidade desse método?</p>
         <label><input type="radio" name="q38" value="incorreta"> Gerar a string que forma o JWT</label><br>
         <label><input type="radio" name="q38" value="incorreta"> Autenticar as credenciais dos usuários</label><br>
-        <label><input type="radio" name="q38" value="incorreta"> Informar ao Spring que nossa API deve realizar o
-            controle de acesso e autenticação</label><br>
+        <label><input type="radio" name="q38" value="incorreta"> Informar ao Spring que nossa API deve realizar o controle de acesso e autenticação</label><br>
         <label><input type="radio" name="q38" value="correta"> Criptografar a senha utilizada pelos usuários</label><br>
 
         <button onclick="checkAnswer('q38', 'correta')">Resposta</button>
@@ -63,7 +52,19 @@
     </div>
 
     <div class="question">
-        <p>1. O que acontece automaticamente quando incluímos a dependência do Spring Security no pom.xml?</p>
+        <p>4. No fluxo de controle de acesso ao Spring Boot, qual o momento correto de se gerar/obter o token JWT?</p>
+        <label><input type="radio" name="q39" value="incorreta"> Logo na primeira requisição à qualquer um dos endpoints da API</label><br>
+        <label><input type="radio" name="q39" value="incorreta"> Após obter o usuário e senha, conversando com o desenvolvedor da API</label><br>
+        <label><input type="radio" name="q39" value="incorreta"> Solicitando ao desenvolvedor da API, o dispositivo físico de Token</label><br>
+        <label><input type="radio" name="q39" value="correta"> O token é obtido, normalmente, a partir da autenticação, via endpoint, utilizando usuário e senha obtidos anteriormente</label><br>
+        <label><input type="radio" name="q39" value="incorreta"> Solicitando o token à IETF, órgão mantenedor do OAuth</label><br>
+    
+        <button onclick="checkAnswer('q39', 'correta')">Resposta</button>
+        <p class="response" id="response-q39"></p>
+    </div>
+    
+    <div class="question">
+        <p>5. O que acontece automaticamente quando incluímos a dependência do Spring Security no pom.xml?</p>
         <label><input type="radio" name="q1" value="incorreta"> Todos os endpoints ficam liberados</label><br>
         <label><input type="radio" name="q1" value="correta"> Todos os endpoints ficam bloqueados</label><br>
         <label><input type="radio" name="q1" value="incorreta"> Apenas endpoints GET ficam bloqueados</label><br>
@@ -72,7 +73,7 @@
     </div>
 
     <div class="question">
-        <p>2. Qual código de erro HTTP é retornado quando um usuário não está autenticado?</p>
+        <p>6. Qual código de erro HTTP é retornado quando um usuário não está autenticado?</p>
         <label><input type="radio" name="q2" value="incorreta"> 403</label><br>
         <label><input type="radio" name="q2" value="correta"> 401</label><br>
         <label><input type="radio" name="q2" value="incorreta"> 404</label><br>
@@ -81,7 +82,7 @@
     </div>
 
     <div class="question">
-        <p>3. Onde é armazenado o token JWT após o login bem-sucedido?</p>
+        <p>7. Onde é armazenado o token JWT após o login bem-sucedido?</p>
         <label><input type="radio" name="q3" value="incorreta"> Cookies</label><br>
         <label><input type="radio" name="q3" value="correta"> LocalStorage</label><br>
         <label><input type="radio" name="q3" value="incorreta"> SessionStorage</label><br>
@@ -90,7 +91,7 @@
     </div>
 
     <div class="question">
-        <p>4. Em qual parte da requisição HTTP o token JWT deve ser enviado?</p>
+        <p>8. Em qual parte da requisição HTTP o token JWT deve ser enviado?</p>
         <label><input type="radio" name="q4" value="incorreta"> Body</label><br>
         <label><input type="radio" name="q4" value="correta"> Header - Authorization</label><br>
         <label><input type="radio" name="q4" value="incorreta"> Query Parameters</label><br>
@@ -99,7 +100,7 @@
     </div>
 
     <div class="question">
-        <p>5. Qual pacote deve ser instalado no frontend para decodificar o JWT?</p>
+        <p>9. Qual pacote deve ser instalado no frontend para decodificar o JWT?</p>
         <label><input type="radio" name="q5" value="incorreta"> jwt-encode</label><br>
         <label><input type="radio" name="q5" value="correta"> jwt-decode</label><br>
         <label><input type="radio" name="q5" value="incorreta"> jwt-parser</label><br>
@@ -108,34 +109,32 @@
     </div>
 
     <div class="question">
-        <p>6. Ao implementar controle de acesso baseado em roles (RBAC), qual é a maneira correta de armazenar as roles
-            do usuário?</p>
+        <p>10. Ao implementar controle de acesso baseado em roles (RBAC), qual é a maneira correta de armazenar as roles do usuário?</p>
         <label><input type="radio" name="q6" value="incorreta"> Em um arquivo de configuração local</label><br>
         <label><input type="radio" name="q6" value="incorreta"> Como uma variável de sessão temporária</label><br>
-        <label><input type="radio" name="q6" value="correta"> Como uma coluna na tabela de usuários no banco de
-            dados</label><br>
+        <label><input type="radio" name="q6" value="correta"> Como uma coluna na tabela de usuários no banco de dados</label><br>
         <button onclick="checkAnswer('q6', 'correta')">Resposta</button>
         <p class="response" id="response-q6"></p>
     </div>
     <div class="question">
-        <p>7. No Angular, qual é a forma correta de proteger rotas baseado em roles?</p>
-        <label><input type="radio" name="q7" value="incorreta"> Usando apenas o @if no template</label><br>
+        <p>11. No Angular, qual é a forma correta de proteger rotas baseado em roles?</p>
+        <label><input type="radio" name="q7" value="incorreta"> Usando apenas o &#64;if no template</label><br>
         <label><input type="radio" name="q7" value="correta"> Implementando um Guard com canActivate</label><br>
         <label><input type="radio" name="q7" value="incorreta"> Apenas com validação no componente</label><br>
         <button onclick="checkAnswer('q7', 'correta')">Resposta</button>
         <p class="response" id="response-q7"></p>
     </div>
+
     <div class="question">
-        <p>8. Qual é a melhor prática para implementar controle de acesso nos endpoints do backend?</p>
+        <p>12. Qual é a melhor prática para implementar controle de acesso nos endpoints do backend?</p>
         <label><input type="radio" name="q8" value="incorreta"> Apenas verificação no frontend</label><br>
         <label><input type="radio" name="q8" value="incorreta"> Validação manual em cada método</label><br>
-        <label><input type="radio" name="q8" value="correta"> Usar @PreAuthorize ou configurar no
-            SecurityConfig</label><br>
+        <label><input type="radio" name="q8" value="correta"> Usar @PreAuthorize ou configurar no SecurityConfig</label><br>
         <button onclick="checkAnswer('q8', 'correta')">Resposta</button>
         <p class="response" id="response-q8"></p>
     </div>
     <div class="question">
-        <p>9. Para controlar a visibilidade de elementos no template Angular baseado em roles, qual serviço deve ser
+        <p>13. Para controlar a visibilidade de elementos no template Angular baseado em roles, qual serviço deve ser
             injetado?</p>
         <label><input type="radio" name="q9" value="incorreta"> AuthService</label><br>
         <label><input type="radio" name="q9" value="correta"> LoginService</label><br>
@@ -144,7 +143,7 @@
         <p class="response" id="response-q9"></p>
     </div>
     <div class="question">
-        <p>10. Como o token JWT deve ser utilizado no contexto de autorização?</p>
+        <p>14. Como o token JWT deve ser utilizado no contexto de autorização?</p>
         <label><input type="radio" name="q10" value="incorreta"> Apenas para autenticação</label><br>
         <label><input type="radio" name="q10" value="correta"> Deve conter a role do usuário para
             autorização</label><br>
@@ -153,7 +152,7 @@
         <p class="response" id="response-q10"></p>
     </div>
     <div class="question">
-        <p>11. Qual é a principal função do Spring Security quando trabalha em conjunto com JWT?</p>
+        <p>15. Qual é a principal função do Spring Security quando trabalha em conjunto com JWT?</p>
         <label><input type="radio" name="q11" value="incorreta"> Apenas criptografar senhas</label><br>
         <label><input type="radio" name="q11" value="correta"> Interceptar e validar tokens em cada
             requisição</label><br>
@@ -163,7 +162,7 @@
     </div>
 
     <div class="question">
-        <p>12. Como o Spring Security e JWT trabalham juntos na proteção de endpoints?</p>
+        <p>16. Como o Spring Security e JWT trabalham juntos na proteção de endpoints?</p>
         <label><input type="radio" name="q12" value="incorreta"> Apenas verificando credenciais no banco de
             dados</label><br>
         <label><input type="radio" name="q12" value="correta"> Através de filtros que validam o token antes de cada
@@ -174,7 +173,7 @@
     </div>
 
     <div class="question">
-        <p>13. Qual componente do Spring Security é responsável por processar o token JWT?</p>
+        <p>17. Qual componente do Spring Security é responsável por processar o token JWT?</p>
         <label><input type="radio" name="q13" value="incorreta"> AuthenticationManager</label><br>
         <label><input type="radio" name="q13" value="correta"> OncePerRequestFilter</label><br>
         <label><input type="radio" name="q13" value="incorreta"> WebSecurityConfigurerAdapter</label><br>
@@ -183,7 +182,7 @@
     </div>
 
     <div class="question">
-        <p>14. O que acontece quando um token JWT inválido é enviado para um endpoint protegido?</p>
+        <p>18. O que acontece quando um token JWT inválido é enviado para um endpoint protegido?</p>
         <label><input type="radio" name="q14" value="incorreta"> O request é processado normalmente</label><br>
         <label><input type="radio" name="q14" value="correta"> Uma exceção é lançada e retorna erro 401</label><br>
         <label><input type="radio" name="q14" value="incorreta"> O token é automaticamente renovado</label><br>
@@ -192,7 +191,7 @@
     </div>
 
     <div class="question">
-        <p>15. Qual é a ordem correta de execução quando uma requisição chega ao backend?</p>
+        <p>19. Qual é a ordem correta de execução quando uma requisição chega ao backend?</p>
         <label><input type="radio" name="q15" value="incorreta"> Controller -> Filter -> Security</label><br>
         <label><input type="radio" name="q15" value="incorreta"> Security -> Controller -> Filter</label><br>
         <label><input type="radio" name="q15" value="correta"> Filter -> Security -> Controller</label><br>
@@ -201,7 +200,7 @@
     </div>
 
     <div class="question">
-        <p>16. Qual classe é responsável por gerar o token JWT após autenticação bem-sucedida?</p>
+        <p>20. Qual classe é responsável por gerar o token JWT após autenticação bem-sucedida?</p>
         <label><input type="radio" name="q16" value="incorreta"> AuthenticationManager</label><br>
         <label><input type="radio" name="q16" value="correta"> TokenService/JwtTokenProvider</label><br>
         <label><input type="radio" name="q16" value="incorreta"> UserDetailsService</label><br>
@@ -210,7 +209,7 @@
     </div>
 
     <div class="question">
-        <p>17. O que deve estar contido no payload do JWT durante a autenticação?</p>
+        <p>21. O que deve estar contido no payload do JWT durante a autenticação?</p>
         <label><input type="radio" name="q17" value="correta"> Subject (geralmente username) e claims</label><br>
         <label><input type="radio" name="q17" value="incorreta"> Senha do usuário</label><br>
         <label><input type="radio" name="q17" value="incorreta"> Chave secreta da aplicação</label><br>
@@ -219,7 +218,7 @@
     </div>
 
     <div class="question">
-        <p>18. Como é feita a validação das credenciais do usuário no processo de autenticação?</p>
+        <p>22. Como é feita a validação das credenciais do usuário no processo de autenticação?</p>
         <label><input type="radio" name="q18" value="incorreta"> Diretamente no banco de dados</label><br>
         <label><input type="radio" name="q18" value="correta"> Através do AuthenticationManager e
             UserDetailsService</label><br>
@@ -229,7 +228,7 @@
     </div>
 
     <div class="question">
-        <p>19. Qual é o papel do PasswordEncoder no processo de autenticação?</p>
+        <p>23. Qual é o papel do PasswordEncoder no processo de autenticação?</p>
         <label><input type="radio" name="q19" value="incorreta"> Gerar tokens JWT</label><br>
         <label><input type="radio" name="q19" value="incorreta"> Validar o username</label><br>
         <label><input type="radio" name="q19" value="correta"> Verificar se a senha fornecida corresponde ao hash
@@ -239,7 +238,7 @@
     </div>
 
     <div class="question">
-        <p>20. O que acontece quando a autenticação falha?</p>
+        <p>24. O que acontece quando a autenticação falha?</p>
         <label><input type="radio" name="q20" value="incorreta"> O sistema tenta novamente automaticamente</label><br>
         <label><input type="radio" name="q20" value="correta"> Uma AuthenticationException é lançada</label><br>
         <label><input type="radio" name="q20" value="incorreta"> O usuário é redirecionado</label><br>
@@ -248,7 +247,7 @@
     </div>
 
     <div class="question">
-        <p>21. Como são definidas as permissões de acesso no Spring Security?</p>
+        <p>25. Como são definidas as permissões de acesso no Spring Security?</p>
         <label><input type="radio" name="q21" value="correta"> Através de roles e authorities no
             SecurityConfig</label><br>
         <label><input type="radio" name="q21" value="incorreta"> Apenas no banco de dados</label><br>
@@ -258,7 +257,7 @@
     </div>
 
     <div class="question">
-        <p>22. Qual anotação é usada para restringir acesso a métodos baseado em roles?</p>
+        <p>26. Qual anotação é usada para restringir acesso a métodos baseado em roles?</p>
         <label><input type="radio" name="q22" value="incorreta"> @Authorized</label><br>
         <label><input type="radio" name="q22" value="incorreta"> @Secured</label><br>
         <label><input type="radio" name="q22" value="correta"> @PreAuthorize</label><br>
@@ -267,7 +266,7 @@
     </div>
 
     <div class="question">
-        <p>23. Como as roles do usuário são extraídas do token JWT?</p>
+        <p>27. Como as roles do usuário são extraídas do token JWT?</p>
         <label><input type="radio" name="q23" value="correta"> Das claims do token JWT</label><br>
         <label><input type="radio" name="q23" value="incorreta"> Do banco de dados a cada requisição</label><br>
         <label><input type="radio" name="q23" value="incorreta"> Do cabeçalho da requisição</label><br>
@@ -276,7 +275,7 @@
     </div>
 
     <div class="question">
-        <p>24. O que acontece quando um usuário tenta acessar um recurso sem a permissão necessária?</p>
+        <p>28. O que acontece quando um usuário tenta acessar um recurso sem a permissão necessária?</p>
         <label><input type="radio" name="q24" value="correta"> Erro 403 Forbidden</label><br>
         <label><input type="radio" name="q24" value="incorreta"> Erro 401 Unauthorized</label><br>
         <label><input type="radio" name="q24" value="incorreta"> Erro 404 Not Found</label><br>
@@ -285,7 +284,7 @@
     </div>
 
     <div class="question">
-        <p>25. Como configurar múltiplas roles para um mesmo endpoint?</p>
+        <p>29. Como configurar múltiplas roles para um mesmo endpoint?</p>
         <label><input type="radio" name="q25" value="incorreta"> Não é possível ter múltiplas roles</label><br>
         <label><input type="radio" name="q25" value="incorreta"> Apenas com configuração no banco de dados</label><br>
         <label><input type="radio" name="q25" value="correta"> Usando hasAnyRole() ou expressões SpEL</label><br>
@@ -296,7 +295,7 @@
     <h1 style="color:white">Extra</h1>
 
     <div class="question">
-        <p>26. Qual interface do Spring Data JPA é usada para implementar paginação?</p>
+        <p>30. Qual interface do Spring Data JPA é usada para implementar paginação?</p>
         <label><input type="radio" name="q26" value="incorreta"> List&lt;T&gt;</label><br>
         <label><input type="radio" name="q26" value="incorreta"> Set&lt;T&gt;</label><br>
         <label><input type="radio" name="q26" value="correta"> Page&lt;T&gt;</label><br>
@@ -305,7 +304,7 @@
     </div>
 
     <div class="question">
-        <p>27. Quais parâmetros são necessários para realizar uma requisição paginada?</p>
+        <p>31. Quais parâmetros são necessários para realizar uma requisição paginada?</p>
         <label><input type="radio" name="q27" value="correta"> page e size</label><br>
         <label><input type="radio" name="q27" value="incorreta"> Apenas size</label><br>
         <label><input type="radio" name="q27" value="incorreta"> Apenas page</label><br>
@@ -314,7 +313,7 @@
     </div>
 
     <div class="question">
-        <p>28. Como implementar ordenação junto com paginação?</p>
+        <p>32. Como implementar ordenação junto com paginação?</p>
         <label><input type="radio" name="q28" value="correta"> Usando Pageable com Sort</label><br>
         <label><input type="radio" name="q28" value="incorreta"> Usando apenas Sort</label><br>
         <label><input type="radio" name="q28" value="incorreta"> Não é possível combinar</label><br>
@@ -323,7 +322,7 @@
     </div>
 
     <div class="question">
-        <p>29. Qual objeto contém as informações sobre o total de páginas e elementos?</p>
+        <p>33. Qual objeto contém as informações sobre o total de páginas e elementos?</p>
         <label><input type="radio" name="q29" value="incorreta"> List</label><br>
         <label><input type="radio" name="q29" value="incorreta"> ArrayList</label><br>
         <label><input type="radio" name="q29" value="correta"> PageImpl</label><br>
@@ -332,7 +331,7 @@
     </div>
 
     <div class="question">
-        <p>30. Como implementar paginação no frontend com Angular Material?</p>
+        <p>34. Como implementar paginação no frontend com Angular Material?</p>
         <label><input type="radio" name="q30" value="incorreta"> Usando ngFor simples</label><br>
         <label><input type="radio" name="q30" value="incorreta"> Com arrays normais</label><br>
         <label><input type="radio" name="q30" value="correta"> Usando mat-paginator</label><br>
@@ -341,7 +340,7 @@
     </div>
 
     <div class="question">
-        <p>31. Qual anotação é usada no controller para receber um arquivo no Spring?</p>
+        <p>35. Qual anotação é usada no controller para receber um arquivo no Spring?</p>
         <label><input type="radio" name="q31" value="incorreta"> @RequestBody</label><br>
         <label><input type="radio" name="q31" value="correta"> @RequestParam("file") MultipartFile</label><br>
         <label><input type="radio" name="q31" value="incorreta"> @PathVariable</label><br>
@@ -350,7 +349,7 @@
     </div>
 
     <div class="question">
-        <p>32. Como configurar o tamanho máximo de upload no Spring Boot?</p>
+        <p>36. Como configurar o tamanho máximo de upload no Spring Boot?</p>
         <label><input type="radio" name="q32" value="incorreta"> No código do controller</label><br>
         <label><input type="radio" name="q32" value="incorreta"> Não é possível configurar</label><br>
         <label><input type="radio" name="q32" value="correta"> No application.properties com spring.servlet.multipart</label><br>
@@ -359,7 +358,7 @@
     </div>
 
     <div class="question">
-        <p>33. Qual interface do Angular é usada para manipular upload de arquivos?</p>
+        <p>37. Qual interface do Angular é usada para manipular upload de arquivos?</p>
         <label><input type="radio" name="q33" value="correta"> FormData</label><br>
         <label><input type="radio" name="q33" value="incorreta"> FileReader</label><br>
         <label><input type="radio" name="q33" value="incorreta"> Blob</label><br>
@@ -368,7 +367,7 @@
     </div>
 
     <div class="question">
-        <p>34. Como tratar múltiplos arquivos em um único upload?</p>
+        <p>38. Como tratar múltiplos arquivos em um único upload?</p>
         <label><input type="radio" name="q34" value="correta"> Usando MultipartFile[]</label><br>
         <label><input type="radio" name="q34" value="incorreta"> Não é possível no Spring</label><br>
         <label><input type="radio" name="q34" value="incorreta"> Apenas um por vez</label><br>
@@ -377,7 +376,7 @@
     </div>
 
     <div class="question">
-        <p>35. Qual é a melhor prática para validar tipos de arquivo permitidos?</p>
+        <p>39. Qual é a melhor prática para validar tipos de arquivo permitidos?</p>
         <label><input type="radio" name="q35" value="incorreta"> Não validar</label><br>
         <label><input type="radio" name="q35" value="incorreta"> Apenas pelo nome</label><br>
         <label><input type="radio" name="q35" value="correta"> Verificar extensão e MIME type</label><br>
