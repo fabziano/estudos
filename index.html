@@ -277,8 +277,8 @@
 
     <div class="question">
         <p>24. O que acontece quando um usuário tenta acessar um recurso sem a permissão necessária?</p>
-        <label><input type="radio" name="q24" value="incorreta"> Erro 401 Unauthorized</label><br>
         <label><input type="radio" name="q24" value="correta"> Erro 403 Forbidden</label><br>
+        <label><input type="radio" name="q24" value="incorreta"> Erro 401 Unauthorized</label><br>
         <label><input type="radio" name="q24" value="incorreta"> Erro 404 Not Found</label><br>
         <button onclick="checkAnswer('q24', 'correta')">Resposta</button>
         <p class="response" id="response-q24"></p>
@@ -287,8 +287,8 @@
     <div class="question">
         <p>25. Como configurar múltiplas roles para um mesmo endpoint?</p>
         <label><input type="radio" name="q25" value="incorreta"> Não é possível ter múltiplas roles</label><br>
-        <label><input type="radio" name="q25" value="correta"> Usando hasAnyRole() ou expressões SpEL</label><br>
         <label><input type="radio" name="q25" value="incorreta"> Apenas com configuração no banco de dados</label><br>
+        <label><input type="radio" name="q25" value="correta"> Usando hasAnyRole() ou expressões SpEL</label><br>
         <button onclick="checkAnswer('q25', 'correta')">Resposta</button>
         <p class="response" id="response-q25"></p>
     </div>
@@ -298,16 +298,16 @@
     <div class="question">
         <p>26. Qual interface do Spring Data JPA é usada para implementar paginação?</p>
         <label><input type="radio" name="q26" value="incorreta"> List&lt;T&gt;</label><br>
-        <label><input type="radio" name="q26" value="correta"> Page&lt;T&gt;</label><br>
         <label><input type="radio" name="q26" value="incorreta"> Set&lt;T&gt;</label><br>
+        <label><input type="radio" name="q26" value="correta"> Page&lt;T&gt;</label><br>
         <button onclick="checkAnswer('q26', 'correta')">Resposta</button>
         <p class="response" id="response-q26"></p>
     </div>
 
     <div class="question">
         <p>27. Quais parâmetros são necessários para realizar uma requisição paginada?</p>
-        <label><input type="radio" name="q27" value="incorreta"> Apenas size</label><br>
         <label><input type="radio" name="q27" value="correta"> page e size</label><br>
+        <label><input type="radio" name="q27" value="incorreta"> Apenas size</label><br>
         <label><input type="radio" name="q27" value="incorreta"> Apenas page</label><br>
         <button onclick="checkAnswer('q27', 'correta')">Resposta</button>
         <p class="response" id="response-q27"></p>
@@ -315,8 +315,8 @@
 
     <div class="question">
         <p>28. Como implementar ordenação junto com paginação?</p>
-        <label><input type="radio" name="q28" value="incorreta"> Usando apenas Sort</label><br>
         <label><input type="radio" name="q28" value="correta"> Usando Pageable com Sort</label><br>
+        <label><input type="radio" name="q28" value="incorreta"> Usando apenas Sort</label><br>
         <label><input type="radio" name="q28" value="incorreta"> Não é possível combinar</label><br>
         <button onclick="checkAnswer('q28', 'correta')">Resposta</button>
         <p class="response" id="response-q28"></p>
@@ -325,8 +325,8 @@
     <div class="question">
         <p>29. Qual objeto contém as informações sobre o total de páginas e elementos?</p>
         <label><input type="radio" name="q29" value="incorreta"> List</label><br>
-        <label><input type="radio" name="q29" value="correta"> PageImpl</label><br>
         <label><input type="radio" name="q29" value="incorreta"> ArrayList</label><br>
+        <label><input type="radio" name="q29" value="correta"> PageImpl</label><br>
         <button onclick="checkAnswer('q29', 'correta')">Resposta</button>
         <p class="response" id="response-q29"></p>
     </div>
@@ -334,8 +334,8 @@
     <div class="question">
         <p>30. Como implementar paginação no frontend com Angular Material?</p>
         <label><input type="radio" name="q30" value="incorreta"> Usando ngFor simples</label><br>
-        <label><input type="radio" name="q30" value="correta"> Usando mat-paginator</label><br>
         <label><input type="radio" name="q30" value="incorreta"> Com arrays normais</label><br>
+        <label><input type="radio" name="q30" value="correta"> Usando mat-paginator</label><br>
         <button onclick="checkAnswer('q30', 'correta')">Resposta</button>
         <p class="response" id="response-q30"></p>
     </div>
@@ -352,17 +352,16 @@
     <div class="question">
         <p>32. Como configurar o tamanho máximo de upload no Spring Boot?</p>
         <label><input type="radio" name="q32" value="incorreta"> No código do controller</label><br>
-        <label><input type="radio" name="q32" value="correta"> No application.properties com
-            spring.servlet.multipart</label><br>
         <label><input type="radio" name="q32" value="incorreta"> Não é possível configurar</label><br>
+        <label><input type="radio" name="q32" value="correta"> No application.properties com spring.servlet.multipart</label><br>
         <button onclick="checkAnswer('q32', 'correta')">Resposta</button>
         <p class="response" id="response-q32"></p>
     </div>
 
     <div class="question">
         <p>33. Qual interface do Angular é usada para manipular upload de arquivos?</p>
-        <label><input type="radio" name="q33" value="incorreta"> FileReader</label><br>
         <label><input type="radio" name="q33" value="correta"> FormData</label><br>
+        <label><input type="radio" name="q33" value="incorreta"> FileReader</label><br>
         <label><input type="radio" name="q33" value="incorreta"> Blob</label><br>
         <button onclick="checkAnswer('q33', 'correta')">Resposta</button>
         <p class="response" id="response-q33"></p>
@@ -370,8 +369,8 @@
 
     <div class="question">
         <p>34. Como tratar múltiplos arquivos em um único upload?</p>
-        <label><input type="radio" name="q34" value="incorreta"> Não é possível no Spring</label><br>
         <label><input type="radio" name="q34" value="correta"> Usando MultipartFile[]</label><br>
+        <label><input type="radio" name="q34" value="incorreta"> Não é possível no Spring</label><br>
         <label><input type="radio" name="q34" value="incorreta"> Apenas um por vez</label><br>
         <button onclick="checkAnswer('q34', 'correta')">Resposta</button>
         <p class="response" id="response-q34"></p>
@@ -380,8 +379,8 @@
     <div class="question">
         <p>35. Qual é a melhor prática para validar tipos de arquivo permitidos?</p>
         <label><input type="radio" name="q35" value="incorreta"> Não validar</label><br>
-        <label><input type="radio" name="q35" value="correta"> Verificar extensão e MIME type</label><br>
         <label><input type="radio" name="q35" value="incorreta"> Apenas pelo nome</label><br>
+        <label><input type="radio" name="q35" value="correta"> Verificar extensão e MIME type</label><br>
         <button onclick="checkAnswer('q35', 'correta')">Resposta</button>
         <p class="response" id="response-q35"></p>
     </div>
