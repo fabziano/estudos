@@ -1,0 +1,1 @@
+function checkAnswer(e,t){let n=document.querySelector(`input[name="${e}"]:checked`),o=document.getElementById(`response-${e}`);n?n.value===t?(o.textContent="Voc\xea acertou!",o.className="response correta"):(o.textContent="Voc\xea errou!",o.className="response incorreta"):(o.textContent="Selecione uma op\xe7\xe3o!",o.className="response")}
