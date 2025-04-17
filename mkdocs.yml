@@ -1,0 +1,23 @@
+site_name: Revisão
+nav: 
+  - Fundamentos dos sistemas operacionais: index.md
+  - Recursos computacionais de processamento: 2.md
+  - Funcionamento e as aplicações de alguns sistemas operacionais: 3.md
+  - Virtualização: 4.md
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/images/icon.svg
+  favicon: assets/images/icon.svg
+  palette:
+    primary: amber
+    accent: amber
+plugins:
+  - mkdocs_quiz:
+extra:
+  generator: false
+extra_javascript:
+  - assets/js/script.js  
+extra_css:
+  - assets/css/style.css
+copyright: 'Mensal 2'
