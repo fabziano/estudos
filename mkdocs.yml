@@ -23,7 +23,7 @@ plugins:
 extra:
   generator: false
 extra_javascript:
-  - assets/js/script.js  
+  - assets/javascripts/script.js  
 extra_css:
-  - assets/css/style.css
+  - assets/stylesheets/style.css
 copyright: 'Mensal 2'
