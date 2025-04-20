@@ -1,0 +1,48 @@
+.quiz {
+    padding: 0.5rem !important;
+    text-align: justify;
+    line-height: 1.5rem;
+    border:none !important;
+
+}
+
+:root  > * {
+    --md-primary-fg-color:#05f096;
+}
+
+.content, .correct{
+    color:#05f096 !important;
+}
+
+input[type=radio] {
+    margin: 0;
+    margin-top: -0.2rem;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #bbbbbb;
+    border-radius: 50%;
+    user-select: none;
+    aspect-ratio: 1/1;
+}
+
+input[type=radio]:checked::after {
+    cursor: pointer;
+    vertical-align: middle;
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #bbbbbb;
+}
+
+button{
+    cursor: pointer;
+    user-select: none;
+}

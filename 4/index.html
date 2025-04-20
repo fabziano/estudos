@@ -18,7 +18,7 @@
     
     
       
-        <title>Virtualização - Revisão</title>
+        <title>Etapa 4 - Identificação de Controles Relevantes e Implementação de Controles CIS 8 - Revisão</title>
       
     
     
@@ -44,7 +44,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/css/style.css">
+      <link rel="stylesheet" href="../assets/stylesheets/style.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -61,13 +61,18 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="lime" data-md-color-accent="teal">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#normas-de-seguranca-em-ti" class="md-skip">
+          Pular para conteúdo
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -100,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Virtualização
+              Etapa 4 - Identificação de Controles Relevantes e Implementação de Controles CIS 8
             
           </span>
         </div>
@@ -111,6 +116,48 @@
     
     
     
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
     
     
   </nav>
@@ -160,7 +207,7 @@
   
   
   <span class="md-ellipsis">
-    Fundamentos dos sistemas operacionais
+    Etapa 1 - Fundamentos de Segurança Web e Ferramentas Essenciais
     
   </span>
   
@@ -182,7 +229,7 @@
   
   
   <span class="md-ellipsis">
-    Recursos computacionais de processamento
+    Etapa 2 - Métodos Criptográficos e Ferramentas de Segurança Web
     
   </span>
   
@@ -204,7 +251,7 @@
   
   
   <span class="md-ellipsis">
-    Funcionamento e as aplicações de alguns sistemas operacionais
+    Etapa 3 - Autenticação com keycloak
     
   </span>
   
@@ -228,17 +275,65 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Etapa 4 - Identificação de Controles Relevantes e Implementação de Controles CIS 8
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Virtualização
+    Etapa 4 - Identificação de Controles Relevantes e Implementação de Controles CIS 8
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#normas-de-seguranca-em-ti" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normas de Segurança em TI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protecao-de-dados-pessoais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proteção de dados pessoais
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -262,6 +357,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#normas-de-seguranca-em-ti" class="md-nav__link">
+    <span class="md-ellipsis">
+      Normas de Segurança em TI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#protecao-de-dados-pessoais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Proteção de dados pessoais
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -276,17 +397,10 @@
 
 
 
-  <h1>Virtualização</h1>
+  <h1>Etapa 4 - Identificação de Controles Relevantes e Implementação de Controles CIS 8</h1>
 
-<div class="quiz"><h3>1. A virtualização pode ser realizada a nível de sistema operacional e a nível de processo. Entre as alternativas a seguir, selecione aquela que indica uma máquina virtual a nível de processo:</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-0-0" ><label for="quiz-0-0">A. Virtual Box.</label></div><div><input type="radio" name="answer" value="1" id="quiz-0-1" ><label for="quiz-0-1">B. VMware.</label></div><div><input type="radio" name="answer" value="2" id="quiz-0-2" correct><label for="quiz-0-2">C. Máquina virtual Java.</label></div><div><input type="radio" name="answer" value="3" id="quiz-0-3" ><label for="quiz-0-3">D. Xen.</label></div><div><input type="radio" name="answer" value="4" id="quiz-0-4" ><label for="quiz-0-4">E. Microsoft Virtual PC.</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden">A máquina virtual Java é a única máquina virtual a nível de processo. Ela provê uma camada de software que permite a execução de programas desenvolvidos em linguagem de programação Java em diferentes sistemas operacionais, desde que haja a máquina virtual corresponde ao sistema instalada. As demais alternativas são todas a nível de sistema, permitindo a execução de um sistema operacional completo como convidado.</section></div>
-
-<div class="quiz"><h3>2. A virtualização completa tem uma grande vantagem, que consiste na não necessidade de modificação do sistema operacional. Por sua vez, a não modificação do sistema implica grande perda de desempenho devido a:</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-1-0" ><label for="quiz-1-0">A. alternância do sistema operacional hospedeiro e convidados na memória, somente um por vez.</label></div><div><input type="radio" name="answer" value="1" id="quiz-1-1" correct><label for="quiz-1-1">B. necessidade de intercepção e emulação de instruções.</label></div><div><input type="radio" name="answer" value="2" id="quiz-1-2" ><label for="quiz-1-2">C. complexidade de comunicação com o hardware​​​​​​​ hospedeiro.</label></div><div><input type="radio" name="answer" value="3" id="quiz-1-3" ><label for="quiz-1-3">D. execução de todas as instruções do sistema convidado ser feita por chamadas de sistema.</label></div><div><input type="radio" name="answer" value="4" id="quiz-1-4" ><label for="quiz-1-4">E. necessidade de todos os comandos serem autorizados pelo núcleo do sistema hospedeiro.</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden">A perda de desempenho ocorre em decorrência da necessidade de isolamento dos sistemas convidados, de modo que, quando um desses sistemas executa comandos de maior privilégio, estes não podem ser executados diretamente usando os recursos do sistema, e sim ser capturados e emulados para uso autorizado pelo sistema hospedeiro. Todas essas instruções devem ser interceptadas pelo monitor de máquinas virtuais, de modo que nada acesse o hardware ou outros recursos diretamente. Quanto ao uso da memória, esta é dividida entre os sistemas com os respectivos espaços determinados pelo usuário, ou definidos automaticamente.</section></div>
-
-<div class="quiz"><h3>3. A virtualização total e a paravirtualização são duas estratégias para a virtualização de sistemas, cada qual com suas características na utilização dos recursos, como processador, memória e dispositivos de entrada e saída. Um sistema convidado está sendo virtualizado com base na virtualização completa e obteve a faixa de endereços de DD00 a DDFF na memória. Durante a execução de um programa, o endereço 00BC foi acessado pelo programa. Qual foi a posição real acessada na memória física?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-2-0" ><label for="quiz-2-0">A. DD00.</label></div><div><input type="radio" name="answer" value="1" id="quiz-2-1" ><label for="quiz-2-1">B. DDFF.</label></div><div><input type="radio" name="answer" value="2" id="quiz-2-2" ><label for="quiz-2-2">C. BBDC.</label></div><div><input type="radio" name="answer" value="3" id="quiz-2-3" correct><label for="quiz-2-3">D. DDBC.</label></div><div><input type="radio" name="answer" value="4" id="quiz-2-4" ><label for="quiz-2-4">E. 00BC.</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden">Na virtualização total, o sistema convidado recebe uma faixa de endereços de memória, a qual é utilizada por ele como se fosse toda a memória disponível. Nesse caso, a faixa disponibilizada ao sistema convidado foi de DD00 a DDFF. O endereço inicial, ou endereço 0, do sistema convidado não fica na posição 0 do endereço físico, e sim no início da faixa de endereços. Como o endereço foi 00BC, então o endereço na memória física é DD00 + 00BC = DDBC.</section></div>
-
-<div class="quiz"><h3>4. A paravirtualização, assim como a virtualização completa, é uma técnica de interface para máquinas virtuais cujo desempenho é mais elevado, na maioria dos casos, se comparado ao da virtualização completa. Contudo, também existem desvantagens, como:</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-3-0" correct><label for="quiz-3-0">A. maior custo de manutenção devido à modificação do sistema operacional.</label></div><div><input type="radio" name="answer" value="1" id="quiz-3-1" ><label for="quiz-3-1">B. dependência de dispositivos de entrada/saída específicos.</label></div><div><input type="radio" name="answer" value="2" id="quiz-3-2" ><label for="quiz-3-2">C. todas as instruções precisam ser interceptadas e emuladas.</label></div><div><input type="radio" name="answer" value="3" id="quiz-3-3" ><label for="quiz-3-3">D. acesso indireto à memória física.</label></div><div><input type="radio" name="answer" value="4" id="quiz-3-4" ><label for="quiz-3-4">E. necessidade de um monitor de máquina virtual mais complexo.</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden">O maior desempenho da paravirtualização se dá em decorrência da diminuição do overhead entre o sistema e o monitor, de modo que o monitor seja muito mais simples e realize a interceptação e a emulação de menos instruções. Como o sistema faz uso dos recursos de forma direta, este trabalha mais facilmente com dispositivos de entrada e saída e também tem acesso direto às páginas de memória reservadas a ele. Contudo, em decorrência desse maior acesso a recursos, o sistema operacional do convidado precisa ser modificado.</section></div>
-
-<div class="quiz"><h3>5. A virtualização de sistemas operacionais permite que em um mesmo hardware físico mais de um sistema operacional seja executado e usufrua dos recursos existentes.<br>Entre as características da virtualização, podemos afirmar que:</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-4-0" ><label for="quiz-4-0">A. otimiza a utilização de recursos e, consequentemente, torna a execução do sistema operacional mais rápida.</label></div><div><input type="radio" name="answer" value="1" id="quiz-4-1" ><label for="quiz-4-1">B. o monitor de máquinas virtuais existente na virtualização somente é necessário na comunicação com dispositivos de hardware.</label></div><div><input type="radio" name="answer" value="2" id="quiz-4-2" ><label for="quiz-4-2">C. em todas as estratégias de virtualização, as máquinas virtuais podem acessar a memória física diretamente.</label></div><div><input type="radio" name="answer" value="3" id="quiz-4-3" correct><label for="quiz-4-3">D. permite que os sistemas convidados sejam executados isoladamente, sem interferência dos demais.</label></div><div><input type="radio" name="answer" value="4" id="quiz-4-4" ><label for="quiz-4-4">E. as máquinas virtuais não precisam de drivers ​​​​​​​para a comunicação com dispositivos de entrada e saída.</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden">A otimização do uso de recursos significa que estes passam a ser mais utilizados, e não mais rápidos, pois quando mais de um sistema está em execução a mesma quantidade de recursos precisa ser compartilhada entre todos. O monitor ou hypervisor é um elemento importante em diversos momentos do processo de virtualização, como na execução de alguns tipos de instrução e na alocação de memória, não somente com elementos de hardware. Quanto à memória física, somente as máquinas virtuais que implementam a paravirtualização podem acessá-la diretamente. A respeito dos dispositivos de entrada e saída, seja para os sistemas convidados, seja para o próprio sistema hospedeiro, os drivers são muito necessários para um bom desempenho. Todos os sistemas virtualizados atuam de modo independente uns dos outros, e, quando é necessária alguma intermediação, esta é feita por hypervisor.</section></div><style type="text/css">.quiz {
+<h2 id="normas-de-seguranca-em-ti">Normas de Segurança em TI</h2>
+<h2 id="protecao-de-dados-pessoais">Proteção de dados pessoais</h2><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
@@ -421,6 +535,30 @@ function resetFieldset(fieldset) {
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../3/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Etapa 3 - Autenticação com keycloak">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Etapa 3 - Autenticação com keycloak
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
@@ -444,12 +582,12 @@ function resetFieldset(fieldset) {
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "navigation.footer"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
       
-        <script src="../assets/js/script.js"></script>
+        <script src="../assets/javascripts/script.js"></script>
       
     
   </body>
