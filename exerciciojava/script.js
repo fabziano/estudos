@@ -1,1 +1,0 @@
-function conferir(e,t){let o=document.querySelector(`input[name="${e}"]:checked`),n=document.getElementById(`response-${e}`);o?o.value===t?(n.textContent="Você acertou!",n.className="response correta"):(n.textContent="Você errou!",n.className="response incorreta"):(n.textContent="Selecione uma opção!",n.className="response")}

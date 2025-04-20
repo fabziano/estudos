@@ -1,19 +1,25 @@
 site_name: Revisão
 nav: 
-  - Fundamentos dos sistemas operacionais: index.md
-  - Recursos computacionais de processamento: 2.md
-  - Funcionamento e as aplicações de alguns sistemas operacionais: 3.md
-  - Virtualização: 4.md
+  - Etapa 1 - Fundamentos de Segurança Web e Ferramentas Essenciais: index.md
+  - Etapa 2 - Métodos Criptográficos e Ferramentas de Segurança Web: 2.md
+  - Etapa 3 - Autenticação com keycloak: 3.md
+  - Etapa 4 - Identificação de Controles Relevantes e Implementação de Controles CIS 8: 4.md
 theme:
   name: material
   language: pt-BR
   logo: assets/images/icon.svg
   favicon: assets/images/icon.svg
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.footer
   palette:
-    primary: amber
-    accent: amber
+    scheme: slate
+    primary: lime
+    accent: teal
 plugins:
-  - mkdocs_quiz:
+  - mkdocs_quiz
+  - search
 extra:
   generator: false
 extra_javascript:

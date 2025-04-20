@@ -1,12 +1,17 @@
+## Protocolo HTTP
+
+## Protocolo DNS
+
+## Criptografia
 <?quiz?>
-question: 1. O sistema operacional pode ser compreendido como um único programa central que, aliado aos denominados programas de sistema, permite ao usuário acesso aos programas e aplicativos de forma a reduzir a complexidade. Eles atuam como uma camada intermediária que oferece ao usuário uma interface de comunicação de fácil acesso. Há diversos sistemas operacionais, sendo os mais comuns derivados dos sistemas Windows, OS X e Linux.<br>São componentes principais de sistema computacional:
-answer: A. Kernel, boot, dispositivos de entrada e saída.
-answer: B. Gerenciador de tarefas, kernel-boot e interpretador.
-answer-correct: C. Kernel, aplicativos, usuários e hardware.
-answer: D. Interface gráfica e linha de comando.
-answer: E. Núcleo de processamento, núcleo gráfico e compilador.
+question: 1. Os sites e os portais que são acessados diariamente, tecnicamente, são conhecidos como documentos Web. Esses documentos são categorizados no momento em que seu conteúdo é determinado, o que, entre outras coisas, define seus parâmetros e características de acessibilidade.<br>No que se refere às categorias dos documentos Web, marque a alternativa correta.
+answer-correct: A. Os documentos Web são categorizados em estáticos, dinâmicos e ativos.
+answer: B. Os documentos Web são categorizados em fixos, ativos no servidor e ativos no cliente.
+answer: C. Os documentos Web são categorizados em controladores, interpretadores e protocolo cliente.
+answer: D. Os documentos Web são categorizados em fixos, estáticos e dinâmicos.
+answer: E. Os documentos Web são categorizados em estáticos, dinâmicos e scripts.
 content:
-Quatro componentes principais integram um sistema computacional: hardware; programas aplicativos, como navegadores e editores de texto; usuários e kernel (núcleo), que é a camada de software responsável pela coordenação do acesso dos programas aplicativos ao hardware. Gerenciador de tarefas, interface gráfica, terminais de linhas de comando e aplicativos são componentes de sistemas operacionais. O boot é o processo de inicialização. Os componentes de entrada e saída podem ser classificados como hardware.
+Os documentos Web são categorizados em estáticos, que são documentos de conteúdo fixo; dinâmicos, que são criados no servidor via aplicativo ou script, conforme recebe uma solicitação de acesso; e também ativos, que dependem que um programa ou script seja executado no dispositivo cliente. As demais opções não se referem a categorizações de documentos Web, sendo que controladores, interpretadores e protocolo cliente são itens da arquitetura dos navegadores Web.
 <?/quiz?>
 
 <?quiz?>
