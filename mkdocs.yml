@@ -1,4 +1,4 @@
-site_name: Revisão
+site_name: Foguetinho
 nav: 
   - Etapa 1 - Fundamentos de Segurança Web e Ferramentas Essenciais: index.md
   - Etapa 2 - Métodos Criptográficos e Ferramentas de Segurança Web: 2.md
@@ -10,8 +10,6 @@ theme:
   logo: assets/images/icon.svg
   favicon: assets/images/icon.svg
   features:
-    - search.suggest
-    - search.highlight
     - navigation.footer
   palette:
     scheme: slate
@@ -19,7 +17,6 @@ theme:
     accent: teal
 plugins:
   - mkdocs_quiz
-  - search
 extra:
   generator: false
 extra_javascript:

@@ -1,8 +1,5 @@
 ## Protocolo HTTP
 
-## Protocolo DNS
-
-## Criptografia
 <?quiz?>
 question: 1. Os sites e os portais que são acessados diariamente, tecnicamente, são conhecidos como documentos Web. Esses documentos são categorizados no momento em que seu conteúdo é determinado, o que, entre outras coisas, define seus parâmetros e características de acessibilidade.<br>No que se refere às categorias dos documentos Web, marque a alternativa correta.
 answer-correct: A. Os documentos Web são categorizados em estáticos, dinâmicos e ativos.
@@ -15,45 +12,49 @@ Os documentos Web são categorizados em estáticos, que são documentos de conte
 <?/quiz?>
 
 <?quiz?>
-question: 2. Nos anos 1960, Ken Thompson e Dennis Ritchie, aliados a um grupo de pesquisadores do MIT e das empresas AT&T, Bell Labs e General Electric, iniciaram um projeto visando construir um sistema operacional multiusuários e multitarefas. Esse sistema daria origem anos mais tarde ao UNIX.<br>O UNIX se tornaria uma inspiração para muitos dos sistemas operacionais modernos, denominados UNIX-like. São fatores motivadores para criação desses sistemas:
-answer: A. O código-fonte do UNIX era bastante complexo contendo muitas funcionalidades requisitadas por hardwares da época, por isso foi utilizado em sistemas operacionais modernos.
-answer-correct: B. O UNIX era um SO proprietário, mas de código aberto bastante estudado em universidades. Entretanto, anos mais tarde seu código foi fechado, o que motivou desenvolvedores a construir SO livre e de código-fonte aberto.
-answer: C. O UNIX (inicialmente denominado como MULTICS) era um sistema operacional multiusuários e multitarefas, entretanto as limitações de hardware da época impediram que o projeto fosse concluído.
-answer: D. O UNIX se tornou bastante popular por ser o primeiro sistema operacional a funcionar exclusivamente por interface gráfica, o que o distinguia de sistemas operacionais de linha de comando, como o MS-DOS.
-answer: E. O UNIX foi proposto pelo professor Andrew S. Tanenbaum com fins educacionais. Tanenbaum mantinha o código-fonte do MINIX organizado e reduzido, rejeitando muitas vezes sugestões de melhorias enviadas por usuários.
+question: 2. Um documento Web dinâmico tem a característica de gerar uma resposta para cada nova solicitação de um dispositivo cliente. Essas respostas normalmente são geradas via script ou programa que é executado no servidor para cada solicitação.<br>São exemplos de solicitação de conteúdo dinâmico de um site:
+answer: A. formulários on-line.
+answer: B. informações de rodapé do site.
+answer-correct: C. data e hora.
+answer: D. informações do desenvolvedor do site.
+answer: E. telefone e endereço.
 content:
-Apesar de ser um sistema proprietário sob licença da AT&T, o UNIX possuía o código-fonte aberto e por isso era utilizado em universidades nos cursos de computação. Anos mais tarde, a empresa que possuía os direitos sobre o UNIX decidiu fechar o código-fonte, isto é, novas versões lançadas não permitiriam a visualização do código-fonte. Com isso, deu-se início a uma corrida pelo desenvolvimento de um novo sistema operacional livre e de código-fonte aberto, sendo o UNIX a “inspiração” para todos esses novos sistemas denominados UNIX-like (como UNIX era sistema comercial, seu código-fonte não poderia ser copiado, tendo que ser reescrito do zero para novos sistemas). Tanenbaum produziu o MINIX como uma alternativa educacional. Mais tarde, Linus Torvalds propôs um novo kernel contrapondo algumas das ideias de Tanenbaum.
+Os documentos dinâmicos atendem a solicitações que normalmente precisam ser atualizadas. Um exemplo muito comum é um site que contém, em alguma parte de seu conteúdo, data e hora atuais. Essas informações são geradas no servidor a cada nova solicitação de acesso. Conteúdos como formulários on-line, informações de cabeçalho e rodapé, informações do desenvolvedor e de contato com o proprietário do site são informações fixas que, eventualmente, podem sofrer atualização e, portanto, não são caracterizadas como conteúdos dinâmicos.
 <?/quiz?>
 
 <?quiz?>
-question: 3. Sistema operacionais (SO) podem ser compreendidos como o conjunto de programas que contém uma série de instruções que gerenciam a integração entre software e hardware e assim facilitam a interação dos mais comuns aplicativos.<br>São tarefas dos sistemas operacionais:
-answer-correct: A. Gerenciamento de arquivos nas unidades de armazenamento, gerenciamento de processos em execução e gerenciamento do acesso à memória principal. 
-answer: B. Gerenciamento de arquivos nas unidades de armazenamento, gerenciamento de da inicialização do sistema e gerenciamento do acesso à memória principal. 
-answer: C. Gerenciamento da memória, processamento de cálculos e gerenciamento do acesso à memória secundária.
-answer: D. Gerenciamento de tarefas, gerenciamento de instalação física de novo hardware e gerenciamento do acesso à memória principal. 
-answer: E. Gerenciamento de instalação física de novo hardware, gerenciamento de processos em execução e gerenciamento do acesso à memória principal. 
+question: 3. A categoria de documentos Web ativos faz uso de programas e scripts que devem ser executados nos dispositivos clientes, diferentemente dos documentos dinâmicos que são executados no servidor.<br>Para permitir acesso a documentos Web ativos, qual programa ou script é utilizado?
+answer: A. CGI.
+answer: B. PHP.
+answer: C. JSP.
+answer: D. ASP.
+answer-correct: E. Java. 
 content:
-As tarefas do SO são: gerenciamento de arquivos, processos e memória. O POST é responsável por gerenciar a inicialização e chamar o sistema operacional. A CPU é responsável pelo processamento de cálculos. E, por fim, o sistema operacional permite a interligação entre hardware e software, agindo como uma camada intermediária, embora não tenha relação com o processo de instalação física.
+Para consumo de conteúdos categorizados como ativos, faz-se necessário que a estação cliente execute algum programa ou script. Um exemplo muito comum desses programas são os applets Java, uma combinação de linguagem de alto nível, biblioteca de classe e ambiente de tempo de execução que permite que seja criado um documento ativo para ser executado no browser. CGI, PHP, JSP e ASP normalmente são usados para criação de documentos dinâmicos via script.
 <?/quiz?>
 
 <?quiz?>
-question: 4. Ao instalar um sistema operacional baseado em GNU/Linux, você é questionado a criar uma partição para armazenamento do SWAP.<br>Qual é a função do SWAP no sistema operacional?
-answer: A. Gerenciar o sistema de arquivos, permitindo que o usuário realize buscas por arquivos e pastas.
-answer-correct: B. Fornecer um método de troca de informações armazenadas na memória principal e secundária, caso a memória RAM esteja totalmente ocupada.
-answer: C. Inicializar a máquina.
-answer: D. Linux não fornece o SWAP, apenas o sistema Windows permite que uma partição seja definida para isso.
-answer: E. Gerenciar o acesso ao processador, mediando a comunicação entre a RAM e a CPU.
+question: 4. O HTTP é um protocolo da camada de aplicação que utiliza o TCP como protocolo de transporte. Além disso, é um protocolo sem estado que se utiliza de envio de mensagens ao servidor, que, por sua vez, responde com o conteúdo ou alguma outra indicação. Essas mensagens trocadas entre o cliente e o servidor são semelhantes entre si e normalmente contêm uma linha de pedido, um cabeçalho e, algumas vezes, o corpo da mensagem. A linha de pedido normalmente é respondida com uma linha de status que pode conter diferentes informações.<br>No que se refere à linha de status de erro de servidor, marque a alternativa correta.
+answer: A. Código 301 – Movido permanentemente / Código 302 – Movido temporariamente.
+answer: B. Código 405 – Método não permitido / Código 406 – Não aceitável.
+answer: C. Código 204 – Nenhum conteúdo / Código 202 – Aceito.
+answer: D. Código 401 – Não autorizado / Código 404 – Não encontrado.
+answer-correct: E. Código 501 – Não implementado / Código 503 – Serviço indisponível.
 content:
-O SWAP (troca) é o processo em que as informações são trocadas entre a memória principal e a memória secundária. Não são funções do SWAP: o gerenciamento de arquivos, a inicialização da máquina ou o acesso ao processador. A definição de uma partição SWAP é uma característica de servidores baseados em kernel do Linux.
+Para as linhas de pedido, são respondidas linhas de status. Esse status pode representar sucesso da solicitação, redirecionamento, erro de cliente e erro de servidor. Por padrão, os códigos de status com início vinculado à centena 500 são códigos de erro de servidor, enquanto a centena 400 se refere a erros de cliente, como, por exemplo, um pedido inválido. A centena 300 trata do redirecionamento e a centena 200, do sucesso da solicitação.
 <?/quiz?>
 
 <?quiz?>
-question: 5. Sistemas operacionais podem ser construídos especificadamente para certos dispositivos. Um exemplo são os sistemas mobile (móveis). Esses sistemas são construídos especificamente para executar em dispositivos como smartphones ou tablets.<br>Qual dos sistemas operacionais apresentados a seguir constitui um sistema exclusivamente móvel?
-answer: A. GNU/Linux.
-answer: B. Ubuntu 18.04.
-answer: C. Windows 10.
-answer-correct: D. iOS.
-answer: E. Windows millenium.
+question: 5. Os domínios de rede das empresas normalmente atendem às solicitações de um grande número de estações clientes e devem estar aptos a garantir a entrega dos recursos e do serviço, de forma a não comprometer as atividades dos colaboradores. Os serviços de Web são os mais acionados pelos usuários, portanto, os administradores utilizam-se de servidores específicos na tentativa de tornar mais ágil o acesso aos conteúdos da Web.<br>Para melhorar o desempenho no acesso à Web das empresas, qual servidor é utilizado?
+answer: A. Servidor DNS.
+answer: B. Servidor Web.
+answer: C. Servidor HTTP.
+answer-correct: D. Servidor proxy.
+answer: E. Servidor Apache.
 content:
-Das alternativas apresentadas, apenas o iOS representa um sistema operacional exclusivamente para dispositivos móveis, como por exemplo, iPhones, iPads e iPods (produtos exclusivos da Apple Inc.). As outras alternativas como GNU/Linux, Ubuntu 18.04, Windows 10 e Windows millenium representam sistemas dedicados às plataformas desktop.
+Uma série de serviços de servidores atende a funções vinculadas ao acesso Web. O servidor proxy, porém, tem uma função bem específica, que acaba sendo um diferencial no desempenho de acesso Web por parte dos usuários nas empresas, uma vez que mantém cópia de respostas de pedidos recentes feitos pelos usuários. Com isso, diminui a carga de solicitações aos servidores Web originais, reduzindo a carga e a latência da rede, uma vez que parte das respostas é atendida diretamente por ele na rede local. Outros servidores usados para acessos Web são: o DNS, que tem função de resolução de nome de domínio; e o servidor Web ou HTTP, que, de modo geral, armazena os conteúdos dos sites, sendo que o Apache é um exemplo desse tipo de servidor.
 <?/quiz?>
+
+## Protocolo DNS
+
+## Criptografia

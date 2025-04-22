@@ -2,18 +2,16 @@
     padding: 0.5rem !important;
     text-align: justify;
     line-height: 1.5rem;
-    border:none !important;
-
+    border-color: #bbbbbb !important;
 }
 
 :root  > * {
     --md-primary-fg-color:#05f096;
 }
 
-.content, .correct{
+.content, .correct label{
     color:#05f096 !important;
 }
-
 input[type=radio] {
     margin: 0;
     margin-top: -0.2rem;
