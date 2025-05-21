@@ -1,1 +1,39 @@
-@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap);a,body,main{display:flex}*{margin:0;padding:0;box-sizing:border-box}body{font-family:"Noto Serif",serif;width:100%}main{gap:1.5rem;padding:1rem;flex-direction:column}a{gap:.5rem;align-items:center;text-decoration:none;color:#000}a:hover{color:#333}
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap);
+
+a,
+body,
+main {
+    display: flex
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Noto Serif", serif;
+    width: 100%
+}
+
+main {
+    gap: 1.5rem;
+    padding: 1rem;
+    flex-direction: column
+}
+
+a {
+    gap: .5rem;
+    align-items: center;
+    text-decoration: none;
+    color: #000
+}
+
+a:hover {
+    color: #333
+}
+
+a svg {
+  flex-shrink: 0;
+}
