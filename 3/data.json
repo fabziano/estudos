@@ -1,14 +1,26 @@
 [
   {
-    "pergunta": "teste",
+    "pergunta": "TESTE DE QUESTÃO 3",
     "opcoes": {
-      "A": "aaa",
-      "B": "bbb",
-      "C": "cc",
-      "D": "dd",
-      "E": "ee"
+      "A": "DASD",
+      "B": "AA",
+      "C": "BB",
+      "D": "CD",
+      "E": "EE"
     },
-    "respostaCorreta": "A",
-    "explicacao": "explica, explica\n\naaa"
+    "respostaCorreta": "C",
+    "explicacao": "A C É A CORRETA DESSA VEZ"
+  },
+  {
+    "pergunta": "DAS",
+    "opcoes": {
+      "A": "AC X",
+      "B": "CXZ",
+      "C": "CZX",
+      "D": "EWQ  WQ",
+      "E": "WE QW"
+    },
+    "respostaCorreta": "D",
+    "explicacao": "E AGORA A D É A CORRETA"
   }
 ]
