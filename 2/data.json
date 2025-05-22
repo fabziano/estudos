@@ -1,0 +1,62 @@
+[
+  {
+    "pergunta": "O sistema DNS pode ser implementado de maneira mais segura utilizando-se uma série de extensões de segurança, conhecida como DNSSEC. Em relação ao ambiente de resolução de nomes que executa DNSSEC, avalie as afirmações a seguir:\nI. Dificulta a implementação de ataques do tipo envenenamento de cache envolvendo domínios que implementam DNSSEC. \nII. A cada alteração nos registros de DNS da zona acme.com, a zona acme.com precisa ser assinada novamente. \nIII. É necessário que a categoria do domínio (com.br) tenha sido assinada com DNSSEC para que DNSSEC possa ser implementado na empresa (acme.com.br).\nEstá correto o que se afirma em:",
+    "opcoes": {
+      "A": "I e III.",
+      "B": "I, II e III.",
+      "C": "II e III.",
+      "D": "I e II.",
+      "E": "Apenas II."
+    },
+    "respostaCorreta": "B",
+    "explicacao": "A afirmativa I está correta, pois o DNSSEC é utilizado para diminuir a possibilidade de ataques do tipo envenenamento de cache. \nA afirmativa II está correta, pois, todas as vezes em que ocorrer alteração nos registros de DNS da zona, essa zona necessita ser assinada novamente. \nA afirmativa III está correta, pois se torna necessário que a categoria do domínio (com.br) tenha sido assinada com DNSSEC para que DNSSEC possa ser implementado na empresa (acme.com.br)."
+  },
+  {
+    "pergunta": "Todo servidor de DNS apresenta arquivos que estabelecem parâmetros de configuração. Isso é feito principalmente para identificar a resolução de um nome para um endereço lógico, endereço IP. Existem algumas diferenças entre esses parâmetros em relação ao IPv4 e ao IPv6. Em um serviço DNS, os registros de recursos que se associam a endereços IPv4 e IPv6 são, respectivamente:",
+    "opcoes": {
+      "A": "MX e SOA.",
+      "B": "A e AAAA.",
+      "C": "NS e A.",
+      "D": "CNAME e SOA.",
+      "E": "A e NS."
+    },
+    "respostaCorreta": "B",
+    "explicacao": "O registro de recurso é realizado em uma zona DNS por meio do A para IPv4 e do AAAA para IPv6. O MX indica o servidor de correio eletrônico para o domínio.\nSOA indica a autoridade sobre os dados do domínio.\nNS aponta para o servidor de nome (que tem autoridade) para o domínio.\nCNAME mostra o nome de domínio canônico para um alias (nome alternativo)."
+  },
+  {
+    "pergunta": "Em uma rede local de uma empresa, existe um servidor DNS. Um computador da rede local da empresa envia consultas DNS ao servidor de nomes local, e o servidor de nomes trata a resolução em favor do computador solicitante até que tenha uma resposta adequada para retornar. Não há envio de respostas parciais do servidor local para o computador local. Assinale a alternativa que indica corretamente o nome do mecanismo de consulta utilizado nesse ambiente.",
+    "opcoes": {
+      "A": "Consulta proxy.",
+      "B": "Consulta indireta.",
+      "C": "Consulta direta.",
+      "D": "Consulta iterativa.",
+      "E": "Consulta recursiva."
+    },
+    "respostaCorreta": "E",
+    "explicacao": "Consulta recursiva: a consulta distribuída é automática; ocorre quando o servidor DNS local consegue resolver o nome e devolve essa resolução ao cliente que a solicitou.\nEssa consulta é iniciada pelo servidor DNS para encontrar um nome, caso ele não possa fazer a resolução usando informações de zonas locais nem informações contidas na cache. Nessa etapa, o servidor DNS fará consultas a outros servidores para responder à solicitação do cliente. Esse processo não ocorre por meio da consulta ao proxy nem de forma direita ou indireta. Já a consulta interativa é feita utilizando servidores externos para a atualização das tabelas locais, o que difere do conceito de consulta recursiva."
+  },
+  {
+    "pergunta": "Na pilha de protocolos do modelo de camadas TCP/IP, um protocolo da camada de transporte normalmente tem diversas funções. Entre essas funções, uma delas é criar comunicação processo a processo. Para essa finalidade, os protocolos utilizam números de portas. Um desses protocolos é o DNS (Domain Name System – sistemas de nomes de domínio). O DNS é um protocolo da camada de aplicação que pode utilizar o TCP ou o UDP da camada de transporte. Qual é a porta de comunicação utilizada pelo protocolo DNS?",
+    "opcoes": {
+      "A": "53 TCP/UDP.",
+      "B": "80 TCP/UDP.",
+      "C": "8080 TCP/UDP.",
+      "D": "21TCP/UDP.",
+      "E": "20 TCP/UDP."
+    },
+    "respostaCorreta": "A",
+    "explicacao": "Porta: 53 TCP/UDP: DNS – Os servidores DNS são contatados pelos clientes por meio da porta 53, TCP/UDP.\nA porta 80 é utilizada pelo protocolo HTTP; a porta 8080 geralmente é utilizada como direcionamento da porta 80; e as portas 20 e 21 são utilizadas pelo protocolo FTP."
+  },
+  {
+    "pergunta": "O DNS é um serviço essencial para qualquer rede de computadores. Ele permite que ocorra a resolução de nomes de recursos em endereços lógicos, endereço IP. Qual dos itens a seguir representa uma das principais características do servidor DNS?",
+    "opcoes": {
+      "A": "Criação de um esquema hierárquico de atribuição de nomes.",
+      "B": "Pouca utilização atualmente, devido ao esgotamento dos endereços previstos no IPv4.",
+      "C": "Não utilização, por padrão, do User Datagram Protocol (UDP).",
+      "D": "Utilização do arquivo host.txt, que tem o nome de todos os computadores conectados à Internet e seus respectivos endereços IP.",
+      "E": "Utilização de um banco de dados centralizado, por segurança."
+    },
+    "respostaCorreta": "A",
+    "explicacao": "Criação de um esquema hierárquico de atribuição de nomes baseado no domínio de um sistema de banco de dados distribuídos para implementar esse esquema de nomenclatura. O DNS também é utilizado no IPv6, além de no IPv4, e continua sendo um serviço essencial para uma rede. O DNS utiliza por padrão os protocolos TCP/UDP. O arquivo host.txt é usado apenas para resolução de nomes no próprio computador sem consulta ao servidor DNS. Para funcionar de forma eficaz, o DNS não poderia utilizar banco de dados centralizado; para isso, utiliza bancos de dados distribuídos."
+  }
+]
