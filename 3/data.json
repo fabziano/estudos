@@ -33,7 +33,7 @@
       "E": "XOR."
     },
     "respostaCorreta": "D",
-    "explicacao": "Uma S-box é uma cifra de substituição sem chaves que usa uma fórmula para definir a relação entre o fluxo de entrada e o fluxo de saída.\no P-box é uma cifra de transposição sem chaves que usa uma tabela para definir a relação entre o fluxo de entrada e o fluxo de saída.\nO AES é uma cifra cíclica com base no algoritmo de Rijndael que usa um bloco de dados de 128 bits.\nEssa é a forma de cifra que tem as características citadas, mas vale ressaltar que atualmente o AES tem sido mais utilizado.\nA cifra XOR é a cifra mais simples que pode ser invertida, sendo um dos componentes do modo de cifra que se refere à questão."
+    "explicacao": "DES é a forma de cifra que tem as características citadas, mas vale ressaltar que atualmente o AES tem sido mais utilizado.\nUma S-box é uma cifra de substituição sem chaves que usa uma fórmula para definir a relação entre o fluxo de entrada e o fluxo de saída.\no P-box é uma cifra de transposição sem chaves que usa uma tabela para definir a relação entre o fluxo de entrada e o fluxo de saída.\nO AES é uma cifra cíclica com base no algoritmo de Rijndael que usa um bloco de dados de 128 bits.\nA cifra XOR é a cifra mais simples que pode ser invertida, sendo um dos componentes do modo de cifra que se refere à questão."
   },
   {
     "pergunta": "O modo assimétrico utiliza duas chaves criptográficas: uma privada e uma pública. O modo de criptografia assimétrico baseia-se em dois principais algoritmos, que são:",
