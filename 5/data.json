@@ -1,0 +1,50 @@
+[
+  {
+    "pergunta": "JSON é um formato para troca de dados entre aplicações, que compete diretamente com a linguagem XML. Apesar dos inúmeros benefícios desse formato, é fundamental, nele e em qualquer outro formato para troca de dados, a implementação de uma abstração de segurança. Qual é a principal aplicação de segurança do JSON?",
+    "opcoes": {
+      "A": "JWT.",
+      "B": "RSA.",
+      "C": "HMAC.",
+      "D": "HTTP.",
+      "E": "POST."
+    },
+    "respostaCorreta": "A",
+    "explicacao": "O JWT (JSON Web Token) é uma aplicação JSON utilizada na transferência de dados, que ocorre por intermédio do envio de dados com o comando POST. Esse comando, por sua vez, encaminha os dados utilizando o cabeçalho (header) do protocolo HTTP, que realiza o transporte de dados de forma segura. Esses dados trafegados são assinados digitalmente por um algoritmo HMAC, utilizado para gerar criptografia de chaves, ou pelo algoritmo RSA, que utiliza um par de chaves público-privada para prover segurança aos dados."
+  },
+  {
+    "pergunta": "O formato JSON foi pensado, em meados de 2000, para ser uma forma simples de intercambiar dados e para ser utilizada em aplicações diversas na Internet. Dentro desse contexto, temos as camadas cliente e servidor para intercomunicação, sendo que a segurança no tráfego ponta a ponta dessas camadas é essencial. Qual a principal etapa de segurança do formato JSON do lado cliente?",
+    "opcoes": {
+      "A": "Autorização.",
+      "B": "Validação.",
+      "C": "Autenticação.",
+      "D": "Confiabilidade.",
+      "E": "Integridade."
+    },
+    "respostaCorreta": "C",
+    "explicacao": "A autenticação visa estabelecer ou confirmar algo (ou alguém) como autêntico, ou seja, reivindicar a autoria ou a veracidade de alguma coisa. Além disso, ela remete à confirmação da procedência de um objeto ou pessoa, nesse caso, está frequentemente relacionada à verificação da sua identidade. Sendo assim, a autenticação é a principal etapa de segurança do lado cliente, enquanto que a autorização ou validação ocorre do lado servidor, verificando, assim, a confiabilidade que compõe a etapa de autenticação, bem como a integridade.​​​​​​​"
+  },
+  {
+    "pergunta": "Como o XML é mais rígido que o JSON, é fundamental que mecanismos de segurança sejam utilizados na troca de dados em JSON. Caso se queira verificar os tipos de acesso de um pacote JSON a um servidor de aplicação com diretórios em JS (JavaScript), que tipo de segurança será necessário implementar?",
+    "opcoes": {
+      "A": "Verificação de autenticidade.",
+      "B": "Verificação de confiabilidade.",
+      "C": "Verificação de integralidade.",
+      "D": "Verificação de autorizações de acesso.",
+      "E": "Verificação lógica."
+    },
+    "respostaCorreta": "D",
+    "explicacao": "A verificação de autorização de acesso no JSON ocorre do lado servidor; é o mecanismo responsável por garantir que apenas usuários autorizados consumam os recursos protegidos num sistema computacional. Já a verificação de autenticidade, a de confiabilidade e a de integridade ocorrem do lado cliente; não havendo uma verificação lógica, pois sempre partirá do pressuposto de que a transação é lógica e não está corrompida."
+  },
+  {
+    "pergunta": "O JSON Web Token é, sem dúvida, o meio mais difundido de garantir a autenticidade na segurança da troca de dados, no formato JSON. A estrutura do JWT conta com três partes; são elas, respectivamente:",
+    "opcoes": {
+      "A": "payload, signature e header.",
+      "B": "header, signature e payload.",
+      "C": "signature, header e payload.",
+      "D": "payload, header e signature.",
+      "E": "header, payload e signature."
+    },
+    "respostaCorreta": "E",
+    "explicacao": "Temos a estrutura do JWT em três partes, na ordem lógica descrita abaixo; essa estrutura segue essa ordem lógica porque o header é o cabeçalho a ser verificado pelo protocolo HTTP, em seguida, o payload com os objetos JSON e, por fim, a signature.\n1. Header: consiste em duas partes codificadas em Base64, são elas: o tipo (JWT) e o algoritmo de Hash, que pode ser HMAC SHA256 ou RSA.\n2. Payload: são objetos JSON que contêm os claims ou as requisições que contêm os pedidos, a carga de dados ou os dados enviados. Existem 3 tipos de claims em payloads, são eles: reserved, public e private claims.\n3. Signature: são atributos não obrigatórios que podem ser um conjunto de informações úteis e interoperáveis normalmente, utilizados por protocolos de segurança em APIs."
+  }
+]
