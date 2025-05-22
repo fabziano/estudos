@@ -1,0 +1,14 @@
+[
+  {
+    "pergunta": "teste",
+    "opcoes": {
+      "A": "aaa",
+      "B": "bbb",
+      "C": "cc",
+      "D": "dd",
+      "E": "ee"
+    },
+    "respostaCorreta": "A",
+    "explicacao": "explica, explica\n\naaa"
+  }
+]
