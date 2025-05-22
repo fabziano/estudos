@@ -57,6 +57,6 @@
       "E": "RC5."
     },
     "respostaCorreta": "A",
-    "explicacao": "O RSA, assim chamado em homenagem a seus inventores Rivest, Shamir e Adleman (RSA), é o algoritmo assimétrico que tem as características citadas.\nDiffie-Hellman foi desenvolvido originalmente para a troca de chaves simétricas. No criptosistema de Diffie-Hellman, duas partes criam uma chave de sessão simétrica para troca de dados sem ter de se lembrar ou armazenar a chave para uso futuro.\nÉ uma cifra simétrica de blocos que podem ser usados em substituição ao DES e IDEA.\nCAST-128 foi desenvolvido por Carlisle Adams e Stafford Tavares e é um algoritmo simétrico.\nO RC5 é um algoritmo simétrico e foi realizado por Ron Rivest. Trata-se de uma família de cifras com tamanhos de blocos, tamanhos de chave e números de ciclos diferentes."
+    "explicacao": "O RSA, assim chamado em homenagem a seus inventores Rivest, Shamir e Adleman (RSA), é o algoritmo assimétrico que tem as características citadas."
   }
 ]
