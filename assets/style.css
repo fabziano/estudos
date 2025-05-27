@@ -65,6 +65,10 @@ label {
     padding: 1rem
 }
 
+h2{
+    margin-top: -1rem;
+}
+
 button {
     background-color: var(--botao);
     width: max-content;
@@ -101,7 +105,7 @@ input[type=radio] {
 
     .foguetinho {
         width: 95%;
-        padding: 0
+        padding: 1rem 0
     }
 
     fieldset {
