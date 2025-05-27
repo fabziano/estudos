@@ -19,12 +19,19 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
             width: 100%;
+            height: 100vh;
             background-color: #1b2838
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            padding: 2.5rem;
+            gap:1.5rem
         }
 
         a {
-            margin: 2rem 0;
             color: #fff;
             text-decoration: none;
             transition: transform .3s cubic-bezier(.08, .59, .29, .99)
@@ -36,8 +43,12 @@
     </style>
 </head>
 
-<body><a href="/etapa/1/" title="Etapa 1"><i class="bi bi-1-circle"></i></a><a href="/etapa/2/" title="Etapa 2"><i
+<body>
+    <main>
+
+    <a href="/etapa/1/" title="Etapa 1"><i class="bi bi-1-circle"></i></a><a href="/etapa/2/" title="Etapa 2"><i
             class="bi bi-2-circle"></i></a><a href="/etapa/3/" title="Etapa 3"><i class="bi bi-3-circle"></i></a><a
-        href="/etapa/4/" title="Etapa 4"><i class="bi bi-4-circle"></i></a></body>
+        href="/etapa/4/" title="Etapa 4"><i class="bi bi-4-circle"></i></a>
+    </main></body>
 
 </html>
