@@ -19,10 +19,10 @@ fieldset {
 }
 
 :root {
-    --background: #2A475E;
+    --background: #111; /* #2A475E */
     --botao: #5f8311;
     --hover: #648b0f;
-    --fieldset: #1B2838;
+    --fieldset: #1B2838; 
     --fonte: #fff
 }
 
