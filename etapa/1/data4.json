@@ -1,0 +1,60 @@
+{
+  "titulo": "Métodos criptográficos",
+  "perguntas": [
+    {
+      "pergunta": "Um dos padrões conhecidos&nbsp;para a busca de autenticidade e privacidade de informações transmitidas é o PGP (Pretty Good Privacity), cujo um&nbsp;dos focos é a&nbsp;criptografia para envio e recebimento de e-mails.\nAssinale a alternativa que aborda, corretamente, um princípio de funcionamento do PGP.",
+      "opcoes": {
+        "A": "Por ser um método criptográfico, o PGP não aceita compartilhamento com outros recursos de sistemas relacionados com a segurança.",
+        "B": "Existem alguns algoritmos utilizados para gerar um hash criptografado, entre eles o MD5, identificado no cabeçalho da assinatura do PGP como um ID.",
+        "C": "O PGP utiliza esquemas de chaves pública e privada, em que a chave pública está associada à identidade de uma \"pessoa\" específica para envio de mensagem.",
+        "D": "O PGP utiliza um tipo de criptografia assimétrica, o que implica dizer que há uma dependência entre emissor-receptor, em que um espera a chave pública do outro.",
+        "E": "A mensagem a ser enviada é submetida a um hash após o processo de criptografia do canal de transmissão ao qual a mensagem será enviada."
+      },
+      "correta": "C"
+    },
+    {
+      "pergunta": "Existem, pelo menos, duas implementações diferentes de PEM disponíveis. Uma delas é a Internet Privacy Enhanced Mail (RIPEM), escrita&nbsp;por Mark Riordan. Atualmente, essa não é uma implementação completa do PEM, porém ainda é útil. A maior parte do código, exceto para as rotinas RSA que ele emprega, é de domínio público. A outra implementação&nbsp;é o TIS/PEM, sucedida com sucesso pelo TIS/MOSS.\nConsiderando as etapas de envio de mensagem pelo PEM, analise as sentenças a seguir.\nI. Etapa em que é realizado o cálculo de hash da mensagem, informando ao receptor que esta não foi alterada durante o transporte.\nII. Se o tipo de mensagem for ENCRYPTED, realiza-se esse passo&nbsp;com o auxílio do algoritmo RSA nas especificações PEM.\nIII. O processo de interoperabilidade, pertencente a essa etapa,&nbsp;permite que um receptor de plataformas diferentes consiga ler as mensagens.\nAssinale a alternativa que contém a associação das sentenças descritas ao nome correto da etapa correspondente.&nbsp;",
+      "opcoes": {
+        "A": "I. Padronização; II. integridade; III. codificação.",
+        "B": "I. Cifração; II. integridade; III. padronização.",
+        "C": "I. Autenticação; II. padronização; III. cifração.",
+        "D": "I. Autenticação; II; cifração; III. padronização.",
+        "E": "I. Integridade; II. codificação; III. padronização."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "O SSH é um protocolo de administração remota que permite aos usuários controlar e modificar os seus servidores remotos pela internet.\nAssinale a alternativa correta sobre esse protocolo&nbsp;e a segurança na rede.",
+      "opcoes": {
+        "A": "É imprescindível que o fingerprint (conteúdo, origem) da chave pública SSH recebido do servidor seja checado, para a garantia de autenticidade.",
+        "B": "Como o tráfego SSH é criptografado, ataques do tipo man-in-the-middle (intercepção dos dados) jamais serão bem-sucedidos.",
+        "C": "O protocolo SSH funciona no modelo P2P; ou seja, a conexão é estabelecida pelo cliente SSH, que se conecta a outro cliente SSH.",
+        "D": "O tráfego entre as partes que se comunicam é protegido com algoritmos de criptografia forte, padrão da indústria, sem garantia de integridade dos dados.",
+        "E": "SSH é sinônimo de SSL, uma vez que suas funcionalidade e diretrizes em relação à criptografia e à segurança de dados são as mesmas."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "O HTTPS (Hyper Text Transfer Protocol Secure) aparece na URL (uniform resource locator) quando um site é protegido por um certificado SSL. Os detalhes do certificado, incluindo a autoridade emissora e a razão social do proprietário do site, podem ser visualizados ao se clicar no símbolo de cadeado na barra do navegador.\nAnalise as afirmações&nbsp;a seguir sobre o SSL.\nI. Permite que quaisquer dados transferidos entre usuários, sites ou mesmo entre sistemas&nbsp;permaneçam praticamente impossíveis de serem lidos.\nII. Faz-se&nbsp;necessária uma autenticação mútua entre cliente e servidor. Para isso, são verificadas as chaves pública&nbsp;e privada para o estabelecimento de conexão.\nIII. O TLS é um protocolo substituto do SSL, cujo objetivo é&nbsp;proteger, além dos&nbsp;dados na nuvem, os arquivos salvos em máquina local para o envio.\nQuais afirmações estão corretas?",
+      "opcoes": {
+        "A": "Apenas a afirmação I está correta.",
+        "B": "As afirmações I e II estão corretas.",
+        "C": "As afirmações I e III estão corretas.",
+        "D": "As afirmações II e III estão corretas.",
+        "E": "Apenas a afirmação III está correta."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "A finalidade do Kerberos é autenticar usuários e evitar o envio de senhas pela internet. Esse protocolo pode ser adotado até mesmo em redes inseguras, pois é baseado em uma criptografia forte, desenvolvida&nbsp;em um modelo cliente-servidor. A habilitação de um serviço para usar a autenticação Kerberos é conhecida&nbsp;como tornar o serviço “ciente do Kerberos”.&nbsp;\nAnalise as afirmações a seguir sobre o protocolo Kerberos.\nI.&nbsp;No passo básico de autenticação do Kerberos, o cliente se autentica no servidor de autenticação, que, por sua vez, encaminha o nome de usuário para um centro de distribuição de chaves.\nII.&nbsp;Uma das falhas do sistema de segurança Kerberos ocorre quando o servidor está indisponível. Nesse caso, nenhum usuário pode se autenticar na rede. Uma solução é a utilização de diversos servidores Kerberos.\nIII.&nbsp;O serviço Kerberos tem como pressuposto um servidor central confiável para serviços de autenticação, também conhecido como KDC (Key Distribution Center).\n​​​​​​​Quais afirmações estão corretas?",
+      "opcoes": {
+        "A": "Apenas a afirmação II está correta.",
+        "B": "As afirmações I e II estão corretas.",
+        "C": "As afirmações I e III estão corretas.",
+        "D": "As afirmações II e III estão corretas.",
+        "E": "Todas as afirmações estão corretas."
+      },
+      "correta": "E"
+    }
+  ]
+}
