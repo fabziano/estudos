@@ -103,6 +103,10 @@ input[type=radio] {
         margin: 1rem 0
     }
 
+    h2{
+        text-align: center;
+    }
+
     .foguetinho {
         width: 95%;
         padding: 1rem 0
