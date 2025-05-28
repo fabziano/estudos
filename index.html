@@ -1,134 +1,131 @@
-<html lang="pt-BR"><head>
-    <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Foguetinho</title>
-    <link rel="shortcut icon" href="assets/icon.svg" type="image/x-icon">
+<html lang="pt-BR">
 
-    <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html::-webkit-scrollbar {
-  width: 0;
-}
-body {
-  font-family: sans-serif;
-  text-align:center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1em 0;
-  width: 100%;
-  height: 100vh;
-  color: #111;
-  background-color:#111;
-}
-a {
-  color: #F8F8FF;
-  text-decoration: none;
-}
-i {
-  font-size: 4em;
-}
-article {
-  width:40%;   
-  font-size: 1.1em;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1em;
-}
-article a {
-  color:#111;
-  background-color:#fff;
-  width: 9.5em;
-  height: 10em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0.875em;
-  border-radius: 0.5em;
-  transition: transform 0.3s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-  box-shadow 0.3s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-}
-article a:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  transform: scale(1.1);
-}
-svg{
-   flex-shrink: 0;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Foguetinho</title>
+  <link rel="shortcut icon" href="assets/icon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-/*RESPONSIVO*/
-    
-@media (min-width: 1281px) { 
-    article {
-    width:40%;   
-  } 
-}
-@media (min-width: 1025px) and (max-width: 1280px) { 
-    article {
-    width:60%;   
-  }    
-}
-@media (min-width: 768px) and (max-width: 1024px) {   
-    article {
-    width:70%; 
-  }    
-}
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {   
-    article {
-    width:80%;   
-  }   
-}
-@media (min-width: 481px) and (max-width: 767px) {   
-    article {
-    width:90%; 
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {    
-    article {
-    width:95%; 
-  } 
-    article a:hover {
-    -webkit-transform: none;
-    -moz-transform: none;
-    transform: none;
-  }
-}   
-      
-</style>
+    html::-webkit-scrollbar {
+      width: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100vh;
+      background-color: #1B2838;
+    }
+
+    i {
+      font-size: 5rem;
+    }
+
+    section {
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap:1.5rem
+    }
+
+    section a {
+      color: #fff;
+      display: flex;
+      text-decoration: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      font-weight: 500;
+      padding: 1rem;
+      transition: transform 0.3s cubic-bezier(0.08, 0.59, 0.29, 0.99),
+        box-shadow 0.3s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    }
+
+    section a:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+
+    @media (min-width: 1281px) {
+      section {
+        width: 40%;
+      }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      section {
+        width: 60%;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      section {
+        width: 70%;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      section {
+        width: 80%;
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+      section {
+        width: 90%;
+      }
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      section {
+        width: 95%;
+      }
+
+      section a:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        transform: none;
+      }
+    }
+  </style>
 </head>
-  <body>   
-   
-  <article>
+
+<body>
+
     <section>
-    <a href="etapa/1/" title="Etapa 1">
-        <svg fill="#000000" viewBox="0 0 32 32" width="80px" height="80px"id="icon" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style> .cls-1 { fill: none; } </style> </defs> <path d="M8,30H2V24H8ZM4,28H6V26H4Z" transform="translate(0 0)"></path> <path d="M19,30H13V24h6Zm-4-2h2V26H15Z" transform="translate(0 0)"></path> <path d="M30,30H24V24h6Zm-4-2h2V26H26Z" transform="translate(0 0)"></path> <path d="M16,10a4,4,0,1,1,4-4A4.0045,4.0045,0,0,1,16,10Zm0-6a2,2,0,1,0,2,2A2.002,2.002,0,0,0,16,4Z" transform="translate(0 0)"></path> <path d="M26,16H21a4.0045,4.0045,0,0,1-4-4H15a4.0045,4.0045,0,0,1-4,4H6a2.0023,2.0023,0,0,0-2,2v4H6V18h5A5.9694,5.9694,0,0,0,15,16.46V22h2V16.46A5.9694,5.9694,0,0,0,21,18h5v4h2V18A2.0023,2.0023,0,0,0,26,16Z" transform="translate(0 0)"></path> <rect id="_Transparent_Rectangle_" data-name="Transparent Rectangle" class="cls-1" width="32" height="32"></rect></g></svg>
-    </a>
-    <a href="etapa/2/" title="Etapa 2">
-        <svg viewBox="0 0 1024 1024" width="80px" height="80px" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M697.051429 674.157714c-29.622857 0-59.245714 11.922286-83.017143 23.917715L412.013714 542.866286c5.924571-17.92 11.849143-35.84 11.849143-59.757715 0-23.917714-5.851429-41.837714-11.849143-59.757714l194.413715-149.430857c17.773714 17.92 47.469714 29.842286 77.165714 29.842286a147.456 147.456 0 0 0 148.406857-149.430857A147.456 147.456 0 0 0 683.52 4.900571 147.456 147.456 0 0 0 535.259429 154.331429c0 29.915429 11.849143 59.830857 23.698285 83.675428L382.317714 369.517714c-29.696-35.84-65.316571-59.757714-106.788571-65.755428v-65.755429c53.394286-11.922286 89.014857-59.757714 89.014857-113.517714 0-65.828571-53.394286-119.588571-118.710857-119.588572S127.122286 58.733714 127.122286 124.489143c0 53.76 35.547429 101.595429 89.014857 113.517714v65.828572C127.122286 321.682286 61.805714 393.362286 61.805714 483.035429s65.316571 161.426286 148.406857 173.348571v65.755429c-53.394286 11.922286-89.088 59.757714-89.088 113.590857 0 65.755429 53.394286 119.515429 118.710858 119.515428s118.784-53.76 118.784-119.515428c0-53.833143-35.620571-101.668571-89.088-113.590857v-65.755429c41.545143-5.997714 83.090286-29.915429 106.861714-65.755429l196.022857 149.211429c-11.849143 23.917714-23.698286 53.76-23.698286 83.675429 0 83.675429 65.316571 149.430857 148.406857 149.430857a147.456 147.456 0 0 0 148.406858-149.430857 147.456 147.456 0 0 0-148.48-149.430858zM683.666286 64.658286c47.469714 0 89.014857 41.910857 89.014857 89.673143 0 47.835429-41.545143 89.673143-89.014857 89.673142-47.542857 0-89.088-41.837714-89.088-89.673142 0-47.762286 41.545143-89.673143 89.088-89.673143z m-441.782857 300.032c62.244571 0 116.736 54.857143 116.736 117.467428 0 62.683429-54.491429 117.467429-116.662858 117.467429s-116.662857-54.857143-116.662857-117.467429c0-62.610286 54.418286-117.467429 116.662857-117.467428z m-61.293715-240.201143c0-35.84 23.771429-59.830857 59.318857-59.830857 35.620571 0 59.392 23.917714 59.392 59.830857 0 35.84-23.771429 59.757714-59.392 59.757714-35.547429 0-59.318857-23.917714-59.318857-59.757714z m118.710857 717.238857c0 35.84-23.771429 59.830857-59.392 59.830857-35.547429 0-59.318857-23.917714-59.318857-59.830857 0-35.84 23.771429-59.757714 59.318857-59.757714 35.620571 0 59.392 23.917714 59.392 59.757714z m397.897143 71.533714c-47.542857 0-89.014857-41.837714-89.014857-89.673143s41.545143-89.673143 89.014857-89.673142c47.542857 0 89.014857 41.837714 89.014857 89.673142s-41.545143 89.673143-89.014857 89.673143z" fill="#000000"></path></g></svg>
-    </a>
+      <a href="etapa/1/" title="Semana 1">
+        <i class="bi bi-1-circle-fill"></i>Semana 1
+      </a>
+      <a href="etapa/2/" title="Semana 2">
+        <i class="bi bi-2-circle-fill"></i>Semana 2
+      </a>
+      <a href="etapa/3/" title="Semana 3">
+        <i class="bi bi-3-circle-fill"></i>Semana 3
+      </a>
+      <a href="etapa/4/" title="Semana 4">
+        <i class="bi bi-4-circle-fill"></i>Semana 4
+      </a>
     </section>
-    <section>
-    <a href="etapa/3/" title="Etapa 3">
-        <svg fill="#000000" version="1.1" width="80px" height="80px" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 548.291 548.291" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M486.201,196.124h-13.166V132.59c0-0.396-0.062-0.795-0.115-1.196c-0.021-2.523-0.825-5-2.552-6.963L364.657,3.677 c-0.033-0.031-0.064-0.042-0.085-0.073c-0.63-0.707-1.364-1.292-2.143-1.795c-0.229-0.157-0.461-0.286-0.702-0.421 c-0.672-0.366-1.387-0.671-2.121-0.892c-0.2-0.055-0.379-0.136-0.577-0.188C358.23,0.118,357.401,0,356.562,0H96.757 C84.894,0,75.256,9.651,75.256,21.502v174.613H62.092c-16.971,0-30.732,13.756-30.732,30.733v159.812 c0,16.968,13.761,30.731,30.732,30.731h13.164V526.79c0,11.854,9.638,21.501,21.501,21.501h354.776 c11.853,0,21.501-9.647,21.501-21.501V417.392h13.166c16.966,0,30.729-13.764,30.729-30.731V226.854 C516.93,209.872,503.167,196.124,486.201,196.124z M96.757,21.502h249.054v110.009c0,5.939,4.817,10.75,10.751,10.75h94.972v53.861 H96.757V21.502z M317.816,303.427c0,47.77-28.973,76.746-71.558,76.746c-43.234,0-68.531-32.641-68.531-74.152 c0-43.679,27.887-76.319,70.906-76.319C293.389,229.702,317.816,263.213,317.816,303.427z M82.153,377.79V232.085h33.073v118.039 h57.944v27.66H82.153V377.79z M451.534,520.962H96.757v-103.57h354.776V520.962z M461.176,371.092 c-10.162,3.454-29.402,8.209-48.641,8.209c-26.589,0-45.833-6.698-59.24-19.664c-13.396-12.535-20.75-31.568-20.529-52.967 c0.214-48.436,35.448-76.108,83.229-76.108c18.814,0,33.292,3.688,40.431,7.139l-6.92,26.37 c-7.999-3.457-17.942-6.268-33.942-6.268c-27.449,0-48.209,15.567-48.209,47.134c0,30.049,18.807,47.771,45.831,47.771 c7.564,0,13.623-0.852,16.21-2.152v-30.488h-22.478v-25.723h54.258V371.092L461.176,371.092z"></path> <path d="M212.533,305.37c0,28.535,13.407,48.64,35.452,48.64c22.268,0,35.021-21.186,35.021-49.5 c0-26.153-12.539-48.655-35.237-48.655C225.504,255.854,212.533,277.047,212.533,305.37z"></path> </g> </g></svg>
-    </a>
-    <a href="etapa/4/" title="Etapa 4">
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="80px" height="80px" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#000000;" d="M233.712,329.351c-74.955,0-135.936-60.981-135.936-135.936V97.932 c0-7.774,6.303-14.077,14.077-14.077s14.077,6.302,14.077,14.077v95.484c0,59.433,48.351,107.783,107.783,107.783 s107.783-48.351,107.783-107.783v-24.804c0-7.774,6.303-14.077,14.077-14.077c7.773,0,14.077,6.302,14.077,14.077v24.804 C369.648,268.37,308.667,329.351,233.712,329.351z"></path> <path style="fill:#000000;" d="M380.007,112.008H87.416c-7.773,0-14.077-6.302-14.077-14.077s6.303-14.077,14.077-14.077h292.589 c7.773,0,14.077,6.302,14.077,14.077S387.78,112.008,380.007,112.008z"></path> </g> <path style="fill:#000000;" d="M189.431,97.932h-49.662V38.908c0-13.713,11.118-24.831,24.831-24.831l0,0 c13.713,0,24.831,11.118,24.831,24.831V97.932z"></path> <path style="fill:#000000;" d="M189.431,112.008h-49.662c-7.773,0-14.077-6.302-14.077-14.077V38.908 C125.693,17.453,143.146,0,164.6,0c21.453,0,38.908,17.453,38.908,38.908v59.024C203.508,105.706,197.204,112.008,189.431,112.008z M153.846,83.855h21.509V38.908c0-5.93-4.824-10.754-10.754-10.754s-10.756,4.824-10.756,10.754v44.948H153.846z"></path> <path style="fill:#000000;" d="M327.653,97.932h-49.662V38.908c0-13.713,11.118-24.831,24.831-24.831l0,0 c13.713,0,24.831,11.118,24.831,24.831V97.932z"></path> <path style="fill:#000000;" d="M327.653,112.008h-49.661c-7.773,0-14.077-6.302-14.077-14.077V38.908 C263.916,17.453,281.369,0,302.823,0s38.908,17.453,38.908,38.908v59.024C341.73,105.706,335.428,112.008,327.653,112.008z M292.069,83.855h21.508V38.908c0-5.93-4.824-10.754-10.754-10.754c-5.93,0-10.754,4.824-10.754,10.754v44.948H292.069z"></path> <rect x="180.912" y="301.702" style="fill:#000000;" width="105.602" height="61.503"></rect> <g> <path style="fill:#000000;" d="M286.509,377.285H180.914c-7.773,0-14.077-6.302-14.077-14.077v-61.502 c0-7.774,6.303-14.077,14.077-14.077h105.595c7.773,0,14.077,6.302,14.077,14.077v61.502 C300.585,370.983,294.282,377.285,286.509,377.285z M194.99,349.132h77.442v-33.349H194.99V349.132z"></path> <path style="fill:#000000;" d="M281.43,512c-34.074,0-61.795-27.721-61.795-61.795V363.21c0-7.774,6.303-14.077,14.077-14.077 c7.773,0,14.077,6.302,14.077,14.077v86.996c0,18.55,15.091,33.641,33.64,33.641s33.642-15.091,33.642-33.641v-10.267 c0-7.775,6.303-14.077,14.077-14.077c7.773,0,14.077,6.302,14.077,14.077v10.267C343.225,484.278,315.504,512,281.43,512z"></path> <path style="fill:#000000;" d="M424.584,444.158c-7.773,0-14.077-6.302-14.077-14.077v-74.776c0-18.55-15.093-33.642-33.641-33.642 s-33.642,15.091-33.642,33.642v17.413c0,7.774-6.303,14.077-14.077,14.077c-7.773,0-14.077-6.302-14.077-14.077v-17.413 c0-34.074,27.721-61.795,61.795-61.795s61.795,27.721,61.795,61.795v74.776C438.661,437.856,432.359,444.158,424.584,444.158z"></path> <path style="fill:#000000;" d="M286.509,166.614H111.851c-7.773,0-14.077-6.302-14.077-14.077c0-7.774,6.303-14.077,14.077-14.077 h174.656c7.773,0,14.077,6.302,14.077,14.077C300.584,160.312,294.282,166.614,286.509,166.614z"></path> </g> </g></svg>
-    </a>
-    </section>
-  </article>   
-  
-</body></html>
+
+</body>
+
+</html>

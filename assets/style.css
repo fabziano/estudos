@@ -19,7 +19,7 @@ fieldset {
 }
 
 :root {
-    --background: #111; /* #2A475E */
+    --background: #111;
     --botao: #5f8311;
     --hover: #648b0f;
     --fieldset: #1B2838; 
@@ -29,6 +29,7 @@ fieldset {
 body {
     align-items: center;
     width: 100%;
+    margin: 1rem 0;
     background-color: var(--background);
     font-family: 'Open Sans', sans-serif
 }
@@ -99,10 +100,6 @@ input[type=radio] {
 }
 
 @media (max-width:768px) {
-    body {
-        margin: 1rem 0
-    }
-
     h2{
         text-align: center;
     }
