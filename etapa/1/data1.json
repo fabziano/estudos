@@ -1,60 +1,60 @@
 {
-  "titulo": "Protocolo DNS",
+  "titulo": "Objetivos de um sistema distribuído",
   "perguntas": [
     {
-      "pergunta": "O sistema DNS pode ser implementado&nbsp;de&nbsp;maneira&nbsp;mais segura utilizando-se uma série de extensões de segurança, conhecida como DNSSEC. Em relação ao ambiente de resolução de nomes que executa DNSSEC, avalie as afirmações a seguir:\nI. Dificulta a implementação de ataques do tipo envenenamento de cache envolvendo domínios que implementam DNSSEC.&nbsp;\nII. A cada alteração nos registros de DNS da zona acme.com, a zona acme.com precisa ser assinada novamente.&nbsp;\nIII. É necessário que a categoria do domínio (com.br) tenha sido assinada com DNSSEC&nbsp;para que DNSSEC possa ser implementado na empresa (acme.com.br).\nEstá correto o que se afirma em:",
+      "pergunta": "Um sistema distribuído é composto de vários computadores em rede compartilhando recursos. Qual das seguintes opções apresenta somente os objetivos de um sistema distribuído?",
       "opcoes": {
-        "A": "I e III.",
-        "B": "I, II e III.",
-        "C": "II e III.",
-        "D": "I e II.",
-        "E": "Apenas II."
+        "A": "Abstração, paralelismo, escalabilidade e sistema aberto.",
+        "B": "Distribuição de trabalho, abstração, escalabilidade e sistema aberto.",
+        "C": "Disponibilidade de recursos, abstração, escalabilidade e sistema aberto.",
+        "D": "Escalabilidade, disponibilidade de recursos, paralelismo e sistema aberto.",
+        "E": "Sistema aberto, paralelismo, distribuição de carga e abstração."
+      },
+      "correta": "C"
+    },
+    {
+      "pergunta": "A taxonomia de Flynn é amplamente utilizada para classificar sistemas computacionais e arquiteturas baseando-se no fluxo de instruções e no fluxo de dados. Em qual das seguintes classificações se encontram os supercomputadores?",
+      "opcoes": {
+        "A": "SISD (Single Instruction Single Data).",
+        "B": "MISD (Multiple Instructions Single Data).",
+        "C": "SIMD (Single Instruction Multiple Data).",
+        "D": "MIMD (Multiple Instructions Multiple Data).",
+        "E": "SPMD (Single Program Multiple Data)."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "José está planejando desenvolver uma nova aplicação distribuída usando o modelo de rede ponto a ponto. Qual das seguintes suposições José deve fazer quando for desenvolver sua aplicação?",
+      "opcoes": {
+        "A": "A rede é segura, a latência sempre vai existir, e a topologia costuma mudar.",
+        "B": "A largura de banda de rede não é finita, a latência sempre vai existir, e a rede não é confiável.",
+        "C": "A topologia de rede muda, e a rede costuma ser confiável e segura.",
+        "D": "A rede não é confiável e não é segura, sempre vai existir latência, e a topologia de rede costuma mudar.",
+        "E": "A latência de rede sempre vai existir, a largura de banda é finita, e a topologia de rede não muda."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "Na Universidade do Brasil, o campus tem vários prédios, e para cada prédio existe uma rede sem fio diferente. Os estudantes estão frustrados porque não conseguem manter-se conectados à Internet com seus celulares quando trocam de prédio, embora a infraestrutura de rede esteja projetada com vários roteadores para cobrir todo o campus. O que precisa ser implementado para resolver esse problema do sistema distribuído de Internet da Universidade Brasil?",
+      "opcoes": {
+        "A": "Comunicação assíncrona.",
+        "B": "Escalabilidade.",
+        "C": "Disponibilidade de recursos.",
+        "D": "Abstração.",
+        "E": "Balanceamento de carga."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "O jogo EVE Online foi construído sob um sistema distribuído robusto capaz de suportar milhares de usuários ao mesmo tempo. Foi um dos projetos bem-sucedidos para aquela época. Qual das seguintes opções a seguir apresenta os itens do projeto dessa aplicação distribuída?",
+      "opcoes": {
+        "A": "Modelo ponto a ponto, particionamento de carga, aglomerado de computadores (cluster) e modelo cliente-servidor.",
+        "B": "Modelo cliente-servidor, aglomerado de computadores (cluster), particionamento de carga e monitoramento.",
+        "C": "Aglomerado de computadores (cluster), modelo cliente-servidor e modelo ponto a ponto.",
+        "D": "Particionamento de carga, modelo ponto a ponto, modelo cliente-servidor.",
+        "E": "Monitoramento, modelo ponto a ponto, particionamento de carga e modelo cliente-servidor."
       },
       "correta": "B"
-    },
-    {
-      "pergunta": "Todo servidor de DNS apresenta arquivos que estabelecem parâmetros de configuração. Isso é feito principalmente para identificar a resolução de um nome para um endereço lógico, endereço IP.&nbsp;Existem algumas diferenças entre esses parâmetros em relação ao IPv4 e ao IPv6. Em um serviço DNS, os registros de recursos que se associam a endereços IPv4 e IPv6 são, respectivamente:",
-      "opcoes": {
-        "A": "MX e SOA.",
-        "B": "A e AAAA.",
-        "C": "NS e A.",
-        "D": "CNAME e SOA.",
-        "E": "A e NS."
-      },
-      "correta": "B"
-    },
-    {
-      "pergunta": "Em uma rede local de uma empresa, existe um servidor DNS. Um computador da rede local da empresa&nbsp;envia consultas DNS ao servidor de nomes local, e o servidor de nomes trata a resolução em favor do computador solicitante&nbsp;até que tenha uma resposta adequada para retornar. Não há envio de respostas parciais do servidor local para o computador local. Assinale a alternativa que indica corretamente o nome do mecanismo de consulta utilizado nesse ambiente.",
-      "opcoes": {
-        "A": "Consulta proxy.",
-        "B": "Consulta indireta.",
-        "C": "Consulta direta.",
-        "D": "Consulta iterativa.",
-        "E": "Consulta recursiva."
-      },
-      "correta": "E"
-    },
-    {
-      "pergunta": "Na pilha de protocolos do modelo de camadas TCP/IP, um protocolo da camada de transporte normalmente tem diversas funções. Entre essas funções, uma delas é criar comunicação processo a processo. Para essa finalidade, os protocolos utilizam números de portas. Um desses protocolos é o DNS (Domain Name System – sistemas de nomes de domínio). O DNS é um protocolo da camada de aplicação que pode utilizar o TCP ou o UDP da camada de transporte. Qual é a porta de comunicação utilizada pelo protocolo DNS?",
-      "opcoes": {
-        "A": "53 TCP/UDP.",
-        "B": "80 TCP/UDP.",
-        "C": "8080 TCP/UDP.",
-        "D": "21TCP/UDP.",
-        "E": "20 TCP/UDP."
-      },
-      "correta": "A"
-    },
-    {
-      "pergunta": "O DNS&nbsp;é um serviço essencial para qualquer rede de computadores. Ele permite que ocorra a resolução de nomes de recursos em endereços lógicos, endereço IP. Qual dos itens a seguir representa&nbsp;uma das principais características do&nbsp;servidor DNS?",
-      "opcoes": {
-        "A": "Criação de um esquema hierárquico de atribuição de nomes.",
-        "B": "Pouca utilização atualmente, devido ao esgotamento dos endereços previstos no IPv4.",
-        "C": "Não utilização, por padrão, do User Datagram Protocol (UDP).",
-        "D": "Utilização do arquivo host.txt, que tem o nome de todos os computadores conectados à Internet e seus respectivos endereços IP.",
-        "E": "Utilização de um banco de dados centralizado, por segurança."
-      },
-      "correta": "A"
     }
   ]
 }
