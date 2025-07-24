@@ -1,60 +1,60 @@
 {
-  "titulo": "Objetivos de um sistema distribuído",
+  "titulo": "O que é a governança de TI",
   "perguntas": [
     {
-      "pergunta": "Um sistema distribuído é composto de vários computadores em rede compartilhando recursos. Qual das seguintes opções apresenta somente os objetivos de um sistema distribuído?",
+      "pergunta": "Assinale a alternativa que define governança corporativa.",
       "opcoes": {
-        "A": "Abstração, paralelismo, escalabilidade e sistema aberto.",
-        "B": "Distribuição de trabalho, abstração, escalabilidade e sistema aberto.",
-        "C": "Disponibilidade de recursos, abstração, escalabilidade e sistema aberto.",
-        "D": "Escalabilidade, disponibilidade de recursos, paralelismo e sistema aberto.",
-        "E": "Sistema aberto, paralelismo, distribuição de carga e abstração."
+        "A": "Trata da administração dos recursos tecnológicos.",
+        "B": "Trata das transições financeiras de uma organização.",
+        "C": "Trata da definição de delimitações para os cargos de alto escalão de uma organização.",
+        "D": "Trata da definição de atividades a serem desempenhadas em um projeto definido.",
+        "E": "Trata da escolha de recursos materiais que devem ser utilizados ou mantidos na organização."
       },
       "correta": "C"
     },
     {
-      "pergunta": "A taxonomia de Flynn é amplamente utilizada para classificar sistemas computacionais e arquiteturas baseando-se no fluxo de instruções e no fluxo de dados. Em qual das seguintes classificações se encontram os supercomputadores?",
+      "pergunta": "Assinale a alternativa cujos aspectos englobam a governança empresarial.",
       "opcoes": {
-        "A": "SISD (Single Instruction Single Data).",
-        "B": "MISD (Multiple Instructions Single Data).",
-        "C": "SIMD (Single Instruction Multiple Data).",
-        "D": "MIMD (Multiple Instructions Multiple Data).",
-        "E": "SPMD (Single Program Multiple Data)."
+        "A": "Governança de negócios e governança corporativa.",
+        "B": "Governança de negócios e governança de TI.",
+        "C": "Governança de TI e gestão de processos.",
+        "D": "Gestão de processos e gestão de metodologias.",
+        "E": "Governança corporativa e governança de processos."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "Assim como diversas metodologias, a governança em TI tem quatro grandes etapas. Marque a alternativa que apresenta o nome dessas etapas.",
+      "opcoes": {
+        "A": "Arquitetura de TI; competências; investimento e custeio; objetivos de aplicações e soluções.",
+        "B": "Objetivos de desempenho, decisão, compromisso, priorização e alocação; relacionamento com clientes; processos e sistemas.",
+        "C": "Infraestrutura; processos e sistemas; gestão de TI e planejamento; relacionamento com fornecedores.",
+        "D": "Alinhamento estratégico e compliance; decisão, compromisso, priorização e alocação de recursos; estrutura, processos, operações e gestão; gestão do valor e desempenho.",
+        "E": "Capacidade de atendimento; segurança da informação; necessidade de aplicações e soluções; decisões e priorização."
       },
       "correta": "D"
     },
     {
-      "pergunta": "José está planejando desenvolver uma nova aplicação distribuída usando o modelo de rede ponto a ponto. Qual das seguintes suposições José deve fazer quando for desenvolver sua aplicação?",
+      "pergunta": "A organização e o relacionamento tático dos recursos tecnológicos em conjunto com as estratégias empresariais são realizados por:",
       "opcoes": {
-        "A": "A rede é segura, a latência sempre vai existir, e a topologia costuma mudar.",
-        "B": "A largura de banda de rede não é finita, a latência sempre vai existir, e a rede não é confiável.",
-        "C": "A topologia de rede muda, e a rede costuma ser confiável e segura.",
-        "D": "A rede não é confiável e não é segura, sempre vai existir latência, e a topologia de rede costuma mudar.",
-        "E": "A latência de rede sempre vai existir, a largura de banda é finita, e a topologia de rede não muda."
-      },
-      "correta": "D"
-    },
-    {
-      "pergunta": "Na Universidade do Brasil, o campus tem vários prédios, e para cada prédio existe uma rede sem fio diferente. Os estudantes estão frustrados porque não conseguem manter-se conectados à Internet com seus celulares quando trocam de prédio, embora a infraestrutura de rede esteja projetada com vários roteadores para cobrir todo o campus. O que precisa ser implementado para resolver esse problema do sistema distribuído de Internet da Universidade Brasil?",
-      "opcoes": {
-        "A": "Comunicação assíncrona.",
-        "B": "Escalabilidade.",
-        "C": "Disponibilidade de recursos.",
-        "D": "Abstração.",
-        "E": "Balanceamento de carga."
-      },
-      "correta": "D"
-    },
-    {
-      "pergunta": "O jogo EVE Online foi construído sob um sistema distribuído robusto capaz de suportar milhares de usuários ao mesmo tempo. Foi um dos projetos bem-sucedidos para aquela época. Qual das seguintes opções a seguir apresenta os itens do projeto dessa aplicação distribuída?",
-      "opcoes": {
-        "A": "Modelo ponto a ponto, particionamento de carga, aglomerado de computadores (cluster) e modelo cliente-servidor.",
-        "B": "Modelo cliente-servidor, aglomerado de computadores (cluster), particionamento de carga e monitoramento.",
-        "C": "Aglomerado de computadores (cluster), modelo cliente-servidor e modelo ponto a ponto.",
-        "D": "Particionamento de carga, modelo ponto a ponto, modelo cliente-servidor.",
-        "E": "Monitoramento, modelo ponto a ponto, particionamento de carga e modelo cliente-servidor."
+        "A": "decisão e operações.",
+        "B": "alinhamento estratégico e compliance.",
+        "C": "estrutura e priorização e alocação de recursos.",
+        "D": "gestão do valor do desempenho.",
+        "E": "gestão do negócio e da corporação."
       },
       "correta": "B"
+    },
+    {
+      "pergunta": "Assinale a alternativa que completa o trecho: a __________________________ tem a alçada de tomar decisões, assim como priorizar projetos e serviços referentes à Tecnologia da Informação.",
+      "opcoes": {
+        "A": "etapa de valor",
+        "B": "etapa de desempenho",
+        "C": "etapa de compliance",
+        "D": "etapa de alinhamento estratégico",
+        "E": "etapa de decisão, compromisso, priorização e alocação."
+      },
+      "correta": "E"
     }
   ]
 }
