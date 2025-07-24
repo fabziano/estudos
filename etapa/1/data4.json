@@ -1,0 +1,16 @@
+{
+  "titulo": "Aumentar o valor entregue da TI para o negócio",
+  "perguntas": [
+    {
+      "pergunta": "A garantia do desempenho das funções gerenciais em TI, inclusive governança de TI, e a garantia de que os riscos de TI para o negócio sejam gerenciados são fatores ligados a que aspectos?",
+      "opcoes": {
+        "A": "À definição de recursos.",
+        "B": "À definição de recursos tecnológicos.",
+        "C": "À definição de recursos humanos.",
+        "D": "À definição de cursos operacionais.",
+        "E": "À definição de medições e indicadores."
+      },
+      "correta": "E"
+    }
+  ]
+}
