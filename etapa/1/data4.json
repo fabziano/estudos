@@ -2,6 +2,50 @@
   "titulo": "Aumentar o valor entregue da TI para o negócio",
   "perguntas": [
     {
+      "pergunta": "Assinale a alternativa que traz algumas das funções da gestão de desempenho de TI dentro de uma organização empresarial:",
+      "opcoes": {
+        "A": "Verificar o alcance dos objetivos estratégicos e antecipar as falhas.",
+        "B": "Verificar o alinhamento em termos de arquitetura de TI.",
+        "C": "Verificar as decisões tomadas acerca da infraestrutura de TI.",
+        "D": "Verificar a dinâmica do negócio.",
+        "E": "Verificar as aplicações de TI para as estratégias de negócio."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "A tecnologia da informação traz diversos benefícios ao processo de gestão de uma empresa. Assinale a alternativa que traz um objetivo alcançado quando a TI é fator definitivo para agregar valor ao negócio de uma empresa.",
+      "opcoes": {
+        "A": "Definição da ordem lógica dos dados, aplicações e infraestrutura.",
+        "B": "A padronização de processos e tecnologia de aplicações.",
+        "C": "As leis vigentes devem ser cumpridas, assim como deve haver uma gestão de riscos.",
+        "D": "O direcionamento da administração da TI para as metas de desempenho.",
+        "E": "A organização dos recursos diante da organização."
+      },
+      "correta": "C"
+    },
+    {
+      "pergunta": "Quando a tecnologia da informação está totalmente alinhada à direção e às estratégias dos negócios da empresa, podemos afirmar:",
+      "opcoes": {
+        "A": "A tecnologia da informação será responsável pela quantidade de recursos humanos.",
+        "B": "A tecnologia da informação agregará valor ao negócio.",
+        "C": "A tecnologia da informação será responsável pelos requisitos de apoio ao negócio.",
+        "D": "A tecnologia da informação trará métodos aplicados aos produtos.",
+        "E": "A tecnologia da informação será responsável por toda gerência da empresa."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "O impacto dos resultados obtidos pela tecnologia da informação quando agregam valor para o negócio podem estar associados à quais indicadores e medições referentes à gestão do desempenho?",
+      "opcoes": {
+        "A": "Resultados da TI",
+        "B": "Resultados de equidade",
+        "C": "Resultados de prestação de conta",
+        "D": "Resultados para o negócio",
+        "E": "Resultados de legalidade"
+      },
+      "correta": "D"
+    },
+    {
       "pergunta": "A garantia do desempenho das funções gerenciais em TI, inclusive governança de TI, e a garantia de que os riscos de TI para o negócio sejam gerenciados são fatores ligados a que aspectos?",
       "opcoes": {
         "A": "À definição de recursos.",
