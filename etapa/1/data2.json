@@ -1,0 +1,60 @@
+{
+  "titulo": "Objetivos da governança de TI",
+  "perguntas": [
+    {
+      "pergunta": "Tem como objetivo as práticas que gerem o negócio e o uso da tecnologia da informação em uma organização. Assinale a alternativa que complementa o conceito citado anteriormente.",
+      "opcoes": {
+        "A": "Gestão de TI.",
+        "B": "Estratégia de TI.",
+        "C": "Governança de TI.",
+        "D": "Governança corporativa.",
+        "E": "Governança empresarial."
+      },
+      "correta": "C"
+    },
+    {
+      "pergunta": "Podemos afirmar que a governança corporativa tem algumas convicções diante do contexto onde é inserida. Selecione a opção que traz alguns desses princípios.",
+      "opcoes": {
+        "A": "Não há distinção entre os acionistas; prestação de contas.",
+        "B": "Estabelecimento de níveis corporativos; a contabilidade financeira fica sob responsabilidade de alguns setores da empresa.",
+        "C": "Alinhamento estratégico e gestão de riscos referentes ao uso dos recursos tecnológicos.",
+        "D": "Uso e aplicação de normas como COSO e COBIT, com o intuito de trazer transparência para as ações dos acionistas.",
+        "E": "Aplicação de gestão de riscos e de recursos no contexto financeiro da corporação."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "Para Fernandes et al. (2012, p.15), “o principal objetivo da governança de TI é alinhar a TI aos requisitos do negócio, considerando soluções de apoio ao negócio, assim como a garantia da continuidade dos serviços e a minimização da exposição do negócio aos riscos de TI”. Diante dessa definição, assinale a alternativa que contempla um objetivo da governança.",
+      "opcoes": {
+        "A": "Promover o alinhamento econômico do negócio, com foco na saúde financeira da empresa.",
+        "B": "Promover o alinhamento de arquitetura de TI,  visando trazer aspectos que remetem à infraestrutura não só das aplicações, mas também de todos os recursos de TI.",
+        "C": "Promover a estratégia e controladoria dos processos existentes na empresa, diante de suas regras de negócio.",
+        "D": "Promover o planejamento estratégico e alinhamento com os objetivos da empresa, além da gestão de eventos críticos.",
+        "E": "Promover o controle interno e de operações da empresa, além de gerir sistemas financeiros e contábeis."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "Ao ser inserida em uma organização, a transparência traz obrigação e desempenho para que os resultados obtidos e as ações realizadas sejam expostos. Diante desse conceito, assinale a alternativa que apresenta o contexto no qual essa prática é aplicada.",
+      "opcoes": {
+        "A": "Governança empresarial.",
+        "B": "Alinhamento estratégico.",
+        "C": "Estruturação de processos.",
+        "D": "Governança de TI.",
+        "E": "Governança corporativa."
+      },
+      "correta": "E"
+    },
+    {
+      "pergunta": "Alguns marcos regulamentam o modo de execução e aplicação de diversas metodologias e práticas. Assinale a alternativa que traz o marco regulatório, surgido com o intuito de oferecer suporte às operações existentes na bolsa de valores&nbsp;quanto ao quesito de prevenção de fraudes.",
+      "opcoes": {
+        "A": "Sarbanes-Oxley Act.",
+        "B": "Acordo da Basileia I.",
+        "C": "Acordo da Basileia II.",
+        "D": "The Committee of Sponsoring Organizations of the Treadway Commission (COSO).",
+        "E": "Instituto Brasileiro de Governança Corporativa (IBCG)."
+      },
+      "correta": "A"
+    }
+  ]
+}
