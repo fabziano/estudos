@@ -1,0 +1,60 @@
+{
+  "titulo": "Alinhar as decisões da ti e do negócio",
+  "perguntas": [
+    {
+      "pergunta": "Na organização empresarial, é possível enxergar claramente diversas transações sendo executadas de modo simultâneo, mas, claro, cada uma em seu respectivo contexto. Assinale a alternativa que caracteriza a transação de folha de pagamento de uma empresa.",
+      "opcoes": {
+        "A": "É uma transação interna.",
+        "B": "É uma transação externa.",
+        "C": "É uma avaliação independente.",
+        "D": "É um alinhamento estratégico.",
+        "E": "É uma entrega de valor."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "A transação externa se origina fora da organização, ou seja, existe ou é criada independente da organização com a qual possui alguma relação, seja direta ou indiretamente. Assinale a alternativa que traz um exemplo de transação externa.",
+      "opcoes": {
+        "A": "Ordem de compra.",
+        "B": "Transferência de orçamento.",
+        "C": "Fornecedores.",
+        "D": "Governança de Ti.",
+        "E": "Contas a pagar."
+      },
+      "correta": "C"
+    },
+    {
+      "pergunta": "Alguns aspectos norteiam a governança de TI, entre eles, é possível se deparar com a necessidade da realização de diversas mudanças no setor tecnológico. Assinale a alternativa que menciona o aspecto fundamental para propiciar essa possibilidade de mudança.",
+      "opcoes": {
+        "A": "Compliance.",
+        "B": "Gestão do alinhamento estratégico.",
+        "C": "Gestão do desempenho.",
+        "D": "Gestão da comunicação.",
+        "E": "Gestão da mudança organizacional."
+      },
+      "correta": "E"
+    },
+    {
+      "pergunta": "Entre os diversos sistemas em que cada um passa a ser classificado de acordo com o tipo de suporte ofertado, assinale a alternativa que traz a principal atividade desempenhada pelo Sistema de Informação Gerencial (SIG).",
+      "opcoes": {
+        "A": "Processa e armazena dados no banco de dados do sistema.",
+        "B": "Referencia as atividades exercidas na empresa.",
+        "C": "Verifica as transações financeiras existentes na empresa.",
+        "D": "Fornece controle e análise de todos os processos existentes.",
+        "E": "Fornece a solução de problemas relacionados à análise de dados."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "Os diversos aspectos norteadores do alinhamento estratégico estão associados diretamente ao uso dos recursos de forma tática diante dos desafios enfrentados pelas empresas. Assinale a alternativa que traz a principal atividade a ser desempenhada após a realização do alinhamento estratégico.",
+      "opcoes": {
+        "A": "Devem ser definidas as estratégias de negócio.",
+        "B": "Devem ser definidas as habilidades e processos do negócio.",
+        "C": "Devem ser definidas as habilidades do negócio.",
+        "D": "Devem ser definidas as prioridades da Tecnologia da Informação.",
+        "E": "Deve ser definida a gestão de negócios."
+      },
+      "correta": "D"
+    }
+  ]
+}
