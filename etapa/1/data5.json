@@ -1,0 +1,60 @@
+{
+  "titulo": "Planejamento Estratégico de TI",
+  "perguntas": [
+    {
+      "pergunta": "O planejamento estratégico tem se desenvolvido ao longo do tempo, iniciando com abordagens mais clássicas e chegando a métodos mais aprimorados à medida que as demandas das empresas se tornaram mais complexas. Uma das alterações mais relevantes no emprego do planejamento estratégico foi o uso de modelos mais articulados e maleáveis.\nTendo isso em vista, considere a situação a seguir:\nEm 2015, a Petrobras fez algumas mudanças em seu planejamento estratégico. A empresa precisou lidar com situações difíceis e aprimorar sua eficácia por uma reestruturação em seu planejamento estratégico para enfrentar crises e melhorar a eficiência operacional.\nSobre o planejamento estratégico, analise as asserções a seguir e a relação proposta entre elas:\nI. O planejamento estratégico se tornou conhecido no universo corporativo no começo do século XX por meio da inserção de instrumentos e modelos sistemáticos.\nPORQUE\nII. A Petrobras, em 2015, empregou um novo formato de planejamento estratégico que priorizava a resposta ágil a crises e flexibilidade, além disso, implementou um novo modelo, refletindo uma tendência moderna no campo.\nMarque a alternativa correta sobre as asserções.",
+      "opcoes": {
+        "A": "As asserções I e II são verdadeiras, mas a II não justifica a I.",
+        "B": "A asserção I é verdadeira, mas a asserção II é falsa.",
+        "C": "A asserção I é falsa, mas a II é verdadeira.",
+        "D": "As asserções I e II são verdadeiras, a II justifica a I.",
+        "E": "As asserções I e II são falsas."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "O planejamento estratégico de TI assegura que os dispositivos tecnológicos estejam alinhados com os propósitos e as demandas de uma empresa. Um planejamento assertivo inclui a determinação de metas, a verificação de recursos e a concepção de estratégias para manter as ações corporativas.\nAvalie a situação a seguir:\nEm 2020, o Banco do Brasil aplicou um novo plano estratégico de TI para aperfeiçoar sua infraestrutura e melhorar a segurança cibernética.\nSobre o planejamento estratégico de TI no Banco do Brasil em 2020, avalie as afirmações a seguir:\n( ) O Banco do Brasil, de fato, empregou um planejamento estratégico de TI em 2020 para modernizar sua infraestrutura e aperfeiçoar a segurança cibernética.\n( ) O planejamento estratégico de TI no Banco do Brasil em 2020 foi voltado para a mudança de locais em que os equipamentos foram disponibilizados para os setores e funcionários da empresa.\n( ) A aplicação do planejamento estratégico de TI em 2020 pelo Banco do Brasil teve como finalidade garantir a infraestrutura tecnológica alinhada às necessidades da organização e às novas exigências de segurança digital.\nAssinale a alternativa com a sequência correta:",
+      "opcoes": {
+        "A": "V, V e F.",
+        "B": "V, F e V.",
+        "C": "F, F e V.",
+        "D": "F, F e F.",
+        "E": "V, V e V."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "O plano estratégico na área de tecnologia é composto de etapas que asseguram que a área auxilie na concretização dos objetivos da empresa. Essas etapas compreendem o diagnóstico da situação, a determinação de estratégias e a execução e supervisão das atividades planejadas.\nConsidere a situação a seguir:\nEm 2021, uma empresa de varejo passou pela etapa de reavaliação do seu planejamento estratégico de TI a fim de aprimorar a articulação de suas plataformas e sistemas de comércio eletrônico.\nSobre as fases do planejamento estratégico de TI, o momento inicial que a empresa de varejo terá que desenvolver se refere a:",
+      "opcoes": {
+        "A": "acompanhamento do que está sendo feito.",
+        "B": "análise do cenário interno e externo do negócio.",
+        "C": "avaliação dos erros e acertos do processo do plano.",
+        "D": "emprego das atividades definidas pelo plano estratégico.",
+        "E": "determinação de estratégias conforme os objetivos da empresa."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "Os profissionais de TI desempenham papel relevante na condução do planejamento estratégico de TI. Sua atuação impacta não apenas a área em que atua, mas também outras dimensões da corporação.\nSobre o tema, considere o caso a seguir:\nUma empresa de telefonia implementou um novo sistema de gestão de TI, incluindo seu time técnico na fase de planejamento para aperfeiçoar a articulação entre plataformas diversas.\nConsiderando o papel de profissionais de TI no planejamento estratégico, avalie as afirmações a seguir:\nI. Os profissionais de TI precisam ter habilidade técnicas avançadas, porém não demandam ter conhecimentos gerais para participar do plano estratégico.\nII. É fundamental que os profissionais de TI compreendam os objetivos de negócio da organização para alinhar a TI com essas metas.\nIII. No planejamento estratégico, os responsáveis pela área de TI participam do momento de implementação, auxiliando na execução das estratégias prioritariamente.\nÉ correto o que se afirma em:",
+      "opcoes": {
+        "A": "II.",
+        "B": "III.",
+        "C": "I.",
+        "D": "I e II.",
+        "E": "II e III."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "O planejamento estratégico de TI se depara com diversas dificuldades no contexto corporativo atual, inclusive a demanda por se adequar às transformações tecnológicas e demandas no mundo dos negócios. Além disso, a integração de variados recursos dessa área e a gestão de ameaças cibernéticas devem ser consideradas.\nIsso posto, considere o caso a seguir:\nNo ano de 2023, um grande banco passou por situações difíceis ao integrar suas novas tecnologias à inteligência artificial (IA) em seu sistema de TI para melhorar a jornada dos seus clientes.\nSobre os desafios atuais no planejamento estratégico de TI, analise as asserções e a relação proposta entre elas:\nI. O desafio primordial do planejamento estratégico de TI na contemporaneidade é a integração de novas tecnologias com sistemas de softwares antigos em uso.\nPORQUE\nII. O banco teve dificuldades ao juntar as tecnologias de IA com seu sistema de TI, o que reflete a complexidade de adequação tecnológica no planejamento estratégico.\nÉ verdadeiro o que se afirma em:",
+      "opcoes": {
+        "A": "A asserção I é verdadeira, mas a asserção II é falsa.",
+        "B": "As asserções I e II são verdadeiras, mas a II não justifica a I.",
+        "C": "As asserções I e II são falsas.",
+        "D": "A asserção I é falsa, mas a II é verdadeira.",
+        "E": "As asserções I e II são verdadeiras, a II justifica a I."
+      },
+      "correta": "E"
+    }
+  ]
+}
