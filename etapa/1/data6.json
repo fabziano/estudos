@@ -1,0 +1,60 @@
+{
+  "titulo": "Monitoramento e controle da estratégia",
+  "perguntas": [
+    {
+      "pergunta": "Para obter sucesso em sua finalidade, os sistemas de avaliação de desempenho organizacional devem se preocupar com aspectos sistêmicos da avaliação de desempenho. Isso significa que:",
+      "opcoes": {
+        "A": "é preciso adotar indicadores independentemente do desenvolvimento da estratégia definida.",
+        "B": "é preciso adotar indicadores dissociados uns dos outros.",
+        "C": "é preciso adotar indicadores em que cada um mede o desempenho de algum aspecto especifico da organização, independentemente.",
+        "D": "é preciso adotar indicadores que sejam integrados entre si e relacionados com a estratégia da organização.",
+        "E": "é preciso adotar indicadores exclusivamente financeiros."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "A integração entre as diversas perspectivas é um aspecto relevante no BSC, sendo que as sua medidas devem estar interligadas, partir da perspectiva de aprendizagem e de crescimento, passando pela de clientes e pela de processos internos, até chegar aos objetivos financeiros. Essa integração fica visível por meio dos mapas estratégicos, que constituem:",
+      "opcoes": {
+        "A": "uma ferramenta estratégica para responder às perguntas: O quê? Por quê? Onde? Quando? Quem? – referentes a uma determinada tarefa.",
+        "B": "uma ferramenta estratégica utilizada para promover a interpretação de todas as relações causais, de forma que estratégias mais eficazes possam ser desenvolvidas, implantadas e, posteriormente, avaliadas e reelaboradas.",
+        "C": "uma ferramenta de gestão que visa promover a melhoria contínua dos processos por meio de quatro ações: planejar, fazer, verificar e agir.",
+        "D": "uma ferramenta de gestão que serve como guia das melhores práticas para o gerenciamento de projetos.",
+        "E": "uma metodologia para proporcionar o planejamento, a execução e a gestão de projetos a partir de um modelo colaborativo, que incentive a participação."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "É a etapa do BSC em que se busca definir, utilizando reuniões com a equipe de projeto, os indicadores e as metas de superação e, também, o material-base para a comunicação do balanced scorecard:",
+      "opcoes": {
+        "A": "Etapa de estabelecimento de objetivos do BSC.",
+        "B": "Etapa de elaboração do plano do BSC.",
+        "C": "Etapa de escolha e de elaboração dos indicadores do BSC.",
+        "D": "Etapa de definição da arquitetura dos indicadores do BSC.",
+        "E": "Etapa de consenso sobre os objetivos estratégicos do BSC."
+      },
+      "correta": "C"
+    },
+    {
+      "pergunta": "A perspectiva do BSC que pode ser verificada utilizando como instrumento a análise estatística dos relatórios de serviço de atendimento ao consumidor, redes sociais e sites como o “Reclame aqui\", é a perspectiva:",
+      "opcoes": {
+        "A": "Financeira.",
+        "B": "Clientes.",
+        "C": "Concorrência.",
+        "D": "Processos internos.",
+        "E": "Aprendizado e crescimento."
+      },
+      "correta": "D"
+    },
+    {
+      "pergunta": "O BSC deve ser implementado e acompanhado por meio de indicadores de desempenho (KPIs – Key Performance Indicators), que constituem os indicadores-chaves para ajudar os gestores na previsão do desempenho e na identificação de mudanças nas operações em função da estratégia definida. Assinale qual dos KPIs a seguir diz respeito à análise da perspectiva clientes:",
+      "opcoes": {
+        "A": "Satisfação, lealdade e imagem de marca.",
+        "B": "Lucro e valor agregado por empregado.",
+        "C": "Reciclagem da força de trabalho e motivação.",
+        "D": "Serviços de pós-vendas e de entrega eficiente de produtos.",
+        "E": "Relação custo-melhoria-produtividade."
+      },
+      "correta": "A"
+    }
+  ]
+}
