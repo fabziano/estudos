@@ -1,0 +1,60 @@
+{
+  "titulo": "Balanced Scorecard e mapa estratégico",
+  "perguntas": [
+    {
+      "pergunta": "Quais são os elementos fundamentais que o mapa estratégico oferece?",
+      "opcoes": {
+        "A": "Foco, sinergia e controle.",
+        "B": "Desenvolver um plano de implementação.",
+        "C": "Satisfação dos colaboradores, índice de qualidade e turnover.",
+        "D": "Financeiro, clientes e processos internos.",
+        "E": "Rotinas e procedimentos administrativos."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "Cada área da empresa compreende suas responsabilidades e expectativas. Esse é o conceito de:",
+      "opcoes": {
+        "A": "sinergia.",
+        "B": "foco.",
+        "C": "tradução e clarificação da visão e da estratégia.",
+        "D": "controle.",
+        "E": "comunicação e revisão constantes da estratégia."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "O balanced scorecard pode ser utilizado como um sistema de gestão para a implementação da estratégia. Um dos objetivos subjacentes a esse sistema é:",
+      "opcoes": {
+        "A": "planejamento e estabelecimento de objetivos, alinhamento das iniciativas estratégicas, aumento do feedback e aprendizagem estratégica.",
+        "B": "o estabelecimento de números a objetos ou eventos, de acordo com regras, especificando a propriedade a ser mensurada, a escala a ser usada e as dimensões da unidade.",
+        "C": "adaptar uma perspectiva global, dado que combina objetivos de curto e longo prazos; indicadores monetários e não monetários, e informação prospectiva com retrospectiva.",
+        "D": "transformar a estratégia em termos operacionais.",
+        "E": "elaboração da análise de desempenho econômico da organização."
+      },
+      "correta": "A"
+    },
+    {
+      "pergunta": "A perspectiva que se refere à centralização da atenção dos gestores nas atividades e nos processos críticos internos, fundamentais para a satisfação dos clientes e na prossecução dos objetivos financeiros da empresa para satisfação dos acionistas, é:",
+      "opcoes": {
+        "A": "perspectiva do cliente.",
+        "B": "perspectiva dos processos internos.",
+        "C": "perspectiva financeira.",
+        "D": "a criação de sinergias na organização.",
+        "E": "perspectiva do aprendizado e crescimento."
+      },
+      "correta": "B"
+    },
+    {
+      "pergunta": "O princípio que consiste no fato de a estratégia exigir mudanças em praticamente todas as partes da organização e orientar o trabalho em equipe para a coordenação dessas mudanças é:",
+      "opcoes": {
+        "A": "fazer da estratégia um processo contínuo.",
+        "B": "transformar a estratégia em tarefa cotidiana de todos.",
+        "C": "princípio de mobilizar a mudança por meio da liderança executiva.",
+        "D": "transformar a estratégia em termos operacionais.",
+        "E": "alinhar a organização com a estratégia."
+      },
+      "correta": "C"
+    }
+  ]
+}
